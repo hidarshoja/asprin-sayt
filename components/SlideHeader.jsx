@@ -15,7 +15,7 @@ export default function SlideHeader() {
           </span>
           <span>به راحتی نوبت خود را رزرو کنید</span>
           <img
-            src="/imgHeader.svg"
+            src="/imgheader.svg"
             className="w-[19px] lg:w-[38px] h-[13px] lg:h-[31px] absolute left-[-15px] lg:left-[-40px] top-[-10px] lg:top-[-6px]"
             alt=""
           />

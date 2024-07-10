@@ -59,7 +59,7 @@ export default function OnlineDoctor() {
             {doctor.specialty}
           </span>
           <span className='flex items-center gap-1'>
-            <img src="/Star1.svg" alt="star" />
+            <img src="/star1.svg" alt="star" />
             <span className='text-[#FFA724]'>{doctor.rating}</span>
             <span className='text-[#BDBDBD] text-[16px]'>
               ({doctor.consultations} مشاوره)
