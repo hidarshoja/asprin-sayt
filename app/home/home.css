@@ -1,0 +1,23 @@
+.half-circle {
+    width: 100%;
+    
+   
+    position: relative;
+  }
+
+
+  .search-slideHeader {
+    border-radius: 40px;
+    border-top: 1px solid #FECA42; 
+    border-bottom: 1px solid #FECA42; 
+    border-left: 10px solid #FECA42;
+    border-right: 10px solid #FECA42; 
+    background: #FFF;
+    bottom: -27px;
+  }
+
+  .doctorDiv{
+    background-image: url(/back.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
