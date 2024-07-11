@@ -38,18 +38,27 @@ export default function ServicesDoctorBox() {
 
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center">
-      <div className="w-full lg:w-[408px]">
-        <div className=" flex gap-4 flex-col items-center p-6 rounded-2xl bg-[#2171eb]">
-          <img src="/nurse.svg" className="w-[50px] h-[67px]" alt="" />
-          <p className="text-white text-[20px] font-bold">پرستار در منزل</p>
-          <span className="text-[#eee] text-[14px] font-medium">
+      <div className="w-[95%] mx-auto lg:w-[408px]">
+        <div className=" flex  gap-4 flex-col items-center p-6 rounded-2xl bg-[#2171eb]">
+        <div className="w-full flex items-center justify-between lg:justify-center">
+        <div className="flex flex-row items-center gap-1 lg:flex-col">
+         <img src="/nurse.svg" className="w-[21px] h-[28px] lg:w-[50px] lg:h-[67px]" alt="" />
+         <p className="text-white text-[14px] lg:text-[20px] font-bold">پرستار در منزل</p>
+         </div>
+         <button
+          className="lg:hidden w-[74px] h-[32px] py-2 px-2 flex items-center justify-center text-[#247cff] text-[10px] font-medium rounded-xl bg-white"
+          >
+            مشاهده همه
+          </button>
+        </div>
+          <span className="text-[#eee] text-[10px] lg:text-[14px] font-medium">
             این خدمت به ارائه مراقبت‌های پزشکی و پرستاری در محیط خانه بیمار
             اختصاص دارد.پرستاران حرفه‌ای به خانه بیمار می‌آیند و خدماتی مانند
             مراقبت‌های پس از عمل، مدیریت داروها، مراقبت از سالمندان را ارائه
             می‌دهند.
           </span>
           <button
-          className="w-[169px] h-[48px] py-3 px-8 flex items-center justify-center text-[#247cff] text-[14px] font-medium rounded-xl bg-white"
+          className="hidden w-[169px] h-[48px] py-3 px-8 lg:flex items-center justify-center text-[#247cff] text-[14px] font-medium rounded-xl bg-white"
           >
             مشاهده همه
           </button>

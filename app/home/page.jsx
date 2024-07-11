@@ -17,7 +17,7 @@ const MainHome = () => {
     <div className="w-full h-auto">
       <SlideHeader />
       <div className="flex flex-col">
-        <div className="flex  items-center justify-between mt-20 py-8 w-[98%] lg:w-[90%] mx-auto">
+        <div className="flex  items-center justify-between mt-20 py-8 w-[98%] lg:w-[90%] mx-auto px-3 lg:px-0">
           <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold ">
             پر بازدید ترین تخصص ها
           </div>
@@ -31,7 +31,7 @@ const MainHome = () => {
         <Carousel />
       </div>
       <div className="flex flex-col  overflow-hidden">
-        <div className="flex items-center justify-between w-[98%] lg:w-[90%] mx-auto">
+        <div className="flex items-center justify-between w-[98%] lg:w-[90%] mx-auto px-3 lg:px-0">
           <div className="text-[#35383f] text-[16px] font-IRANSans lg:text-[30px] font-bold">
             خدمات دکتر آسپرین
           </div>

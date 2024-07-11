@@ -6,17 +6,7 @@ import FindDoctorBox from "./FindDoctorBox";
 export default function FindDoctor() {
   const [activeIndex, setActiveIndex] = useState(null);
   const [activeSpanIndex, setActiveSpanIndex] = useState(1);
-  //   const buttons = [
-  //     "دکتر بیماری کودکان",
-  //     "دکتر آلرژی",
-  //     "دکتر تغذیه",
-  //     "دکتر غدد",
-  //     "دکتر روانشناس",
-  //     "دکتر قلب",
-  //     "دکتر پوست",
-  //     "دکتر چشم",
-  //     "دکتر گوش",
-  //   ];
+  
   const buttonSets = [
     [
       "دکتر بیماری کودکان",
@@ -56,7 +46,7 @@ export default function FindDoctor() {
   const buttons = activeSpanIndex !== null ? buttonSets[activeSpanIndex] : [];
 
   return (
-    <div className="w-full p-6 bg-[#f5f5f5] rtl">
+    <div className="w-full px-6 py-10 bg-white rtl">
       <div className="max-w-7xl mx-auto">
         <div className="flex  items-center justify-between mt-20 py-8">
           <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">
@@ -70,16 +60,18 @@ export default function FindDoctor() {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-16">
-          <div className="w-1/2 bg-[#2171e8] rounded-2xl relative">
-            <div className="w-full absolute top-12 right-12 bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center gap-1 justify-between mb-4">
+          <div className="w-full lg:w-1/2 bg-[#2171e8] rounded-2xl relative">
+            <div className="w-full lg:absolute lg:top-12 lg:right-12 bg-white p-6 rounded-lg shadow-md">
+              <div className="flex flex-col lg:flex-row items-center gap-1 justify-between mb-4">
+                <div className="w-full lg:w-1/2 flex items-center">
                 <img src="/search.svg" alt="search icon" />
                 <input
                   type="text"
                   placeholder="جستجوی شهر"
-                  className="w-full p-2 outline-none rounded border-none"
+                  className="w-full p-2 text-[12px] lg:text-[16px] outline-none rounded border-none"
                 />
-                <select className="w-full p-2 border rounded mr-2 text-[#9e9e9e] text-[16px] border-none font-normal outline-none">
+                </div>
+                <select className="w-full lg:w-1/2 p-2 border rounded mr-2 text-[#9e9e9e] text-[12px] lg:text-[16px] border-none font-normal outline-none">
                   <option value="" disabled selected>
                     جستجوی نوع بیماری
                   </option>
@@ -89,11 +81,11 @@ export default function FindDoctor() {
                   <option value="alzheimers">الزایمر</option>
                 </select>
               </div>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-3 gap-2">
                 {buttons.map((label, index) => (
                   <button
                     key={index}
-                    className={`custom-button ${
+                    className={`custom-button text-[10px] lg:text-[14px] ${
                       activeIndex === index ? "active" : ""
                     }`}
                     onClick={() => setActiveIndex(index)}

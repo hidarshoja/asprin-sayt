@@ -10,7 +10,7 @@ const ScrollToTopButton = () => {
   return (
     <img
       src="/Fr.svg"
-      className="w-10 h-10 cursor-pointer"
+      className="w-8 h-8 lg:w-10 lg:h-10 cursor-pointer"
       alt=""
       onClick={handleScrollToTop}
     />

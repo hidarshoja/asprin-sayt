@@ -40,12 +40,12 @@ export default function SlideHeader() {
                   name="search"
                   id="search"
                   placeholder="جستجوی نام دکتر و تخصص"
-                  className="block w-full rounded-md border border-[#e0e0e0] py-[11px] pr-12 bg-white text-[#9E9E9E] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
+                  className="block w-full text-[12px] lg:text-[16px] rounded-md border border-[#e0e0e0] py-[11px] pr-12 bg-white text-[#9E9E9E] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
                 />
                 <div className="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
                   <img
                     src="/search.svg"
-                    className="w-6 h-6 mt-1 cursor-pointer"
+                    className="w-4 h-4 lg:w-6 lg:h-6 mt-1 cursor-pointer"
                     alt=""
                   />
                 </div>
@@ -55,7 +55,7 @@ export default function SlideHeader() {
           <div className="w-full lg:w-2/5">
             <div className="relative mt-2">
               <select
-                className="block w-full rounded-md border border-[#e0e0e0] py-[9px] px-2 bg-white text-[#9E9E9E]  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400"
+                className="block text-[12px] lg:text-[16px] w-full rounded-md border border-[#e0e0e0] py-[9px] px-2 bg-white text-[#9E9E9E]  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400"
                 defaultValue=""
               >
                 <option value="" disabled>
@@ -76,7 +76,7 @@ export default function SlideHeader() {
                   className=" w-6 h-6 mt-1 text-white cursor-pointer"
                   alt=""
                 />
-                <span>جستجو</span>
+                <span className="text-[12px] lg:text-[16px]">جستجو</span>
               </button>
             </div>
           </div>

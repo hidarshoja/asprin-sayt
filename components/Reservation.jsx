@@ -25,21 +25,21 @@ export default function ReservationSteps() {
   ];
 
   return (
-    <div className="w-full bg-[#f5f5f5] py-12">
+    <div className="w-full bg-white py-12">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-[30px] font-bold text-[#35383F] mb-6 text-start">مراحل رزرو نوبت آنلاین</h2>
+        <h2 className="text-[14px] lg:text-[30px] font-bold text-[#35383F] mb-6 text-start">مراحل رزرو نوبت آنلاین</h2>
         <div className="flex flex-col lg:flex-row gap-6 mt-12">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-md w-full lg:w-1/4 text-center relative z-10">
               <div className="mb-4">
-                <div className='bg-[#F5F5F5] flex items-center justify-center rounded-full w-[82px] h-[82px]'>
-                 <img src={step.icon} className='w-[48px] h-[48px]' alt="" />
+                <div className='bg-[#F5F5F5] flex items-center justify-center rounded-full w-12 lg:w-[82px] h-12 lg:h-[82px]'>
+                 <img src={step.icon} className='w-6 lg:w-12 h-6 lg:h-12' alt="" />
                 </div>
               </div>
-              <h3 className="text-[20px] font-medium mb-2">{step.title}</h3>
-              <p className="text-[14px] text-[#616161] font-normal">{step.description}</p>
+              <h3 className="text-[14px] lg:text-[20px] font-medium mb-2">{step.title}</h3>
+              <p className="text-[12px] lg:text-[14px] text-[#616161] font-normal">{step.description}</p>
               {index < steps.length - 1 && (
-                <img src="/Line.png" className='w-[20px] h-6 absolute left-[-20px] top-[50%] z-0' alt="" />
+                <img src="/Line.png" className='w-[20px] hidden lg:block h-6 absolute left-[-20px] top-[50%] z-0' alt="" />
               )}
             </div>
           ))}

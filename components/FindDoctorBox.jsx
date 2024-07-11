@@ -56,8 +56,8 @@ export default function FindDoctorBox() {
             className="w-[91px] h-[91px] rounded-xl"
           />
         </div>
-        <div className="w-2/4">
-          <h3 className="text-[24px] text-[#212121] font-bold">
+        <div className="hidden lg:block w-2/4">
+          <h3 className="lg:text-[24px] text-[#212121] font-bold">
             {currentDoctor.name}
           </h3>
           <p className="text-[16px] font-normal text-[#616161]">
@@ -68,7 +68,7 @@ export default function FindDoctorBox() {
             <span>{currentDoctor.location}</span>
           </p>
         </div>
-        <div className="flex items-end ml-12 justify-end gap-3 flex-col mt-2 w-1/4">
+        <div className="hidden lg:flex items-end ml-12 justify-end gap-3 flex-col mt-2 w-1/4">
           <div className="flex gap-1 text-yellow-400">
             <FaStarHalfAlt />
             <FaStar />
@@ -80,18 +80,40 @@ export default function FindDoctorBox() {
             رزرو نوبت
           </button>
         </div>
+        <div className="flex flex-col lg:hidden items-start mr-2 gap-1">
+        <h3 className="text-[14px] text-[#212121] font-bold">
+            {currentDoctor.name}
+          </h3>
+          <p className="text-[12px] font-normal text-[#616161]">
+            {currentDoctor.specialty}
+          </p>
+          <p className="text-[12px] text-[#9e9e9e] font-normal flex items-center gap-1">
+            <img src="/location.svg" className="w-4 h-4" alt="" />
+            <span>{currentDoctor.location}</span>
+          </p>
+          <div className="flex gap-1 text-yellow-400">
+            <FaStarHalfAlt />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
+        </div>
       </div>
-      <p className="text-[16px] text-[#757575] mb-4">
+          <button className="bg-[#2171e8] w-[80%] mx-auto lg:hidden text-white text-[14px] py-1 px-6 rounded mr-4">
+            رزرو نوبت
+          </button>
+      <p className="text-[12px] mt-3 lg:text-[16px] text-[#757575] mb-4">
         <span className="text-[#424242]">آدرس مطب:</span> {currentDoctor.address}
       </p>
-      <p className="text-[#424242] text-[16px] font-medium text-right py-3">
+      <p className="text-[#424242] text-[12px] lg:text-[16px] font-medium text-right py-3">
         خدمات {currentDoctor.name}
       </p>
       <div className="flex gap-2">
         {currentDoctor.services.map((service, index) => (
           <span
             key={index}
-            className="bg-[#fafafa] text-[#757575] text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]"
+            className="bg-[#fafafa] text-[#757575] flex items-center justify-center text-[12px] lg:text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]"
           >
             {service}
           </span>
