@@ -36,37 +36,37 @@ export default function HeaderComponent() {
                 <div className="hidden lg:ml-6 lg:flex gap-3 items-center justify-center">
                   <Link
                     href="/"
-                    className="inline-flex mr-2 items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex mr-2 items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-  hover:text-[#35383f]"
                   >
                     خانه
                   </Link>
                   <Link
                     href="/home/ServicesPage"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-  hover:text-[#35383f]"
                   >
                     خدمات
                   </Link>
                   <Link
                     href="/home/pooyesh"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-  hover:text-[#35383f]"
                   >
                     پویش
                   </Link>
                   <Link
                     href="/home/Doctor"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-  hover:text-[#35383f]"
                   >
                       پزشکان
                   </Link>
                   <Link
                     href="/home/aboutUs"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-  hover:text-[#35383f]"
                   >
                     درباره
                   </Link>
                   <Link
                     href="/home/aboutUs"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
+                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-[18px]  text-[#757575] font-normal  hover:text-[#35383f]"
                   >
                     تماس با ما
                   </Link>

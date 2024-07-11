@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import FindDoctorBox from "./FindDoctorBox";
 
 export default function FindDoctor() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -117,59 +117,8 @@ export default function FindDoctor() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 bg-white px-6 py-11 rounded-lg shadow-md">
-            <div className="flex items-start mb-4">
-              <div className="w-1/4">
-                <img
-                  src="/021.png"
-                  alt="doctor"
-                  className="w-[91px] h-[91px] rounded-xl"
-                />
-              </div>
-              <div className="w-2/4">
-                <h3 className="text-[24px] text-[#212121] font-bold">
-                  دکتر سپهر محمدی
-                </h3>
-                <p className="text-[16px] font-normal text-[#616161]">
-                  متخصص بیماری های کودکان
-                </p>
-                <p className="text-[16px] text-[#9e9e9e] font-normal flex items-center gap-1">
-                  <img src="/location.svg" className="w-5 h-5" alt="" />
-                  <span>تهران، بیمارستان ابن سینا</span>
-                </p>
-              </div>
-              <div className="flex items-end ml-12 justify-end gap-3 flex-col mt-2 w-1/4">
-                <div className="flex gap-2 text-yellow-400">
-                  <FaStarHalfAlt />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                  <FaStar />
-                </div>
-                <button className="bg-[#2171e8] text-white text-[14px] py-1 px-8 rounded mr-4">
-                  رزرو نوبت
-                </button>
-              </div>
-            </div>
-            <p className="text-[16px] text-[#757575] mb-4">
-              <span className="text-[#424242]">آدرس مطب:</span> تهران، بلوار
-              شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی،
-              ساختمان داروخانه شبانه روزی دکتر کریمخان، طبقه اول، واحد 1
-            </p>
-            <p className="text-[#424242] text-[16px] font-medium text-right py-3">
-              خدمات دکتر محمدی
-            </p>
-            <div className="flex gap-2">
-              <span className="bg-[#fafafa] text-[#757575] text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]">
-                دکتر درمان کودکان
-              </span>
-              <span className="bg-[#fafafa] text-[#757575] text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]">
-                دکتر تغذیه
-              </span>
-              <span className="bg-[#fafafa] text-[#757575] text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]">
-                دکتر شنوایی سنجی
-              </span>
-            </div>
+          <div className="w-full lg:w-1/2">
+            <FindDoctorBox />
           </div>
         </div>
       </div>

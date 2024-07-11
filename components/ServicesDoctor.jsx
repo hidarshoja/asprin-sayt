@@ -1,16 +1,17 @@
 "use client"
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './MyCarouselSlick2.css';  // برای استایل‌های سفارشی
 
 export default function ServicesDoctor() {
+  const [activeCarouselIndex, setActiveCarouselIndex] = useState(null);
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 8,
+    slidesToShow: 9,
     slidesToScroll: 1,
     
     nextArrow: <SampleNextArrow />,
@@ -39,7 +40,12 @@ export default function ServicesDoctor() {
     <div className="carousel-container-box mt-10 overflow-hidden">
       <Slider {...settings}>
         {carouselItems.map((item, index) => (
-          <div key={index} className="carousel-item-box flex  items-center justify-center  text-[10px] lg:text-[14px] font-IRANSans text-[#9e9e9e] py-[14px] px-8">
+          <div key={index} 
+          className={`carousel-item-box cursor-pointer flex items-center justify-center text-[10px] lg:text-[14px] font-IRANSans text-[#9e9e9e] py-[14px] px-6 ${
+            activeCarouselIndex === index ? 'active' : ''
+          }`}
+          onClick={() => setActiveCarouselIndex(index)}
+          >
             
             
               {item.title}
@@ -82,6 +88,8 @@ const carouselItems = [
   { title: "آمبولانس خصوصی" },
   {  title: "تجهیزات پزشکی" },
   {  title: "دامپزشکی" },
-  { title: "پزشک" }
+  { title: "پزشک" },
+
+  { title: "پزشک متخصص" },
  
 ];

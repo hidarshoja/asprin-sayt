@@ -2,7 +2,7 @@
     display: flex !important;
 
 height: 41px !important;
-padding: 14px 32px !important;
+
 
 align-items: center !important;
 gap: 10px !important;
@@ -36,3 +36,8 @@ background: #ffffff !important;
 .carousel-container-box {
     height: 100px !important;
 }
+
+.carousel-item-box.active {
+    color: #2171e8 !important;
+    border-color: #2171e8 !important;
+  }

@@ -12,9 +12,9 @@ export default function ScanningComponent() {
         <p className="text-[30px] text-[#35383f] font-bold mb-4">
           <span className="text-[#2171e8]">پویش</span> حمایت های مردمی
         </p>
-        <span className="text-[18px] text-[#424242] leading-6">
+        <span className="text-[18px] text-[#616161] leading-8 text-justify font-medium">
           دکتر آسپرین مکان یاب سلامت مربوط به خدمات درمان و پزشکی برای ایرانیان
-          است که با برنامه‌ریزی و مطالعه درست، تصمیم دارد مرهم درد کاربران باشد.
+          است که با برنامه‌ریزی و مطالعه درست، تصمیم دارد <span className="font-bold">مرهم درد کاربران</span> باشد.
           مجموعه دکتر آسپرین با داشتن پزشکان و متخصصان که همه روزه در خدمت
           بیماران هستند زندگی، امید، عشق و سلامتی را برای تمامی هموطنان حتی در
           دورترین نقطه کشور به ارمغان می‌آورد تا بتواند با این کار نفس زندگی را
@@ -22,7 +22,7 @@ export default function ScanningComponent() {
           عزیزان درمان شدند. با هر مبلغی می‌توانید به این حمایت‌های مردمی ما
           بپیوندید.
         </span>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between mt-12">
           <div>
             <button className="flex w-[197px] h-14 justify-center items-center rounded-xl bg-[#247cff] text-white text-base font-medium">
               بیشتر بدانید

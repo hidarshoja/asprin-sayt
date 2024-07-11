@@ -32,6 +32,6 @@ body{
   }
 
   .custom-button.active {
-    background-color: #247CFF;
-    color: #ffffff;
+    color: #2171e8;
+    border-color: #2171e8;
   }
