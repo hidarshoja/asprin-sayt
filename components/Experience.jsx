@@ -286,7 +286,7 @@ export default function Experience() {
               </button>
             ))}
           </div>
-          <div className="border text-[12px] lg:text-[14px] p-4 rounded">
+          <div className="border text-[12px] lg:text-[18px] p-4 rounded">
             {renderContent()}
             <div className="flex items-center gap-1 justify-end">
               <img src="/Button1.png" alt="" />
