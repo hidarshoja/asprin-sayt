@@ -12,7 +12,10 @@ body{
 }
 
 .slick-list {
-    background-color: #F5F5F5 !important;
+  background-color: transparent !important;
+}
+.slick-slider {
+  background-color: transparent !important;
 }
 
 .custom-button {
