@@ -11,9 +11,9 @@ body{
     font-family: "ABee" !important;
 }
 
-/* .slick-list {
-    background-color: #FBFAF6 !important;
-} */
+.slick-list {
+    background-color: #F5F5F5 !important;
+}
 
 .custom-button {
     background-color: #ffffff;

@@ -52,9 +52,9 @@ background: #ffffff !important;
     color: #2171e8 !important;
     border-color: #2171e8 !important;
   }
-  .slick-list {
+  /* .slick-list {
     background-color: white !important;
-  }
+  } */
   .carousel-item-box2.active {
     color: #2171e8 !important;
     border-bottom-color: #2171e8 !important;
