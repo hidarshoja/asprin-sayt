@@ -3,7 +3,7 @@ import FooterComponent from "@/components/Footer";
 
 export default function HomeLayout({ children }) {
   return (
-     <div className="w-full bg-[#FBFAF6]">
+     <div className="w-full bg-white">
        <Header />
        {/* <div className="px-[5px] md:px-[60px] lg:px-[90px]"> */}
         <div>

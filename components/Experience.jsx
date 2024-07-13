@@ -180,12 +180,12 @@ export default function Experience() {
   };
 
   return (
-    <div className="w-full bg-white min-h-[800px] py-3 px-3 lg:px-0 lg:py-0 lg:h-[600px]">
-      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between lg:px-20">
-        <div className="w-full lg:w-1/3 text-[#35383f] text-[14px] lg:text-[30px] px-2  font-bold">
+    <div className="w-full bg-white min-h-[800px] py-3  lg:py-0 lg:h-[600px]">
+      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[86%] xl:w-[80%] mx-auto px-3 lg:px-0">
+        <div className="w-full lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
           داستان و تجربه بیماران
         </div>
-        <div className="w-full lg:w-2/3">
+        <div className="w-full lg:w-3/4">
           <div className="hidden lg:flex flex-wrap w-full items-center justify-end mb-4">
             {categories.map((category) => (
               <button

@@ -33,7 +33,7 @@ export default function FAQComponent() {
   };
 
   return (
-    <div className="w-full h-[850px] lg:h-[550px] bg-gray-100 py-12 px-1  lg:px-0 rtl">
+    <div className="w-full h-[850px] lg:h-[550px] bg-gray-100 py-12 rtl">
       <div className="px-2 lg:l-0 lg:pr-10 flex flex-col lg:flex-row  gap-6">
         <div className="flex-1">
           <h2 className="text-[14px] lg:text-[30px] font-bold mb-6 text-right">

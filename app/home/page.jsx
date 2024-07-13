@@ -16,8 +16,8 @@ const MainHome = () => {
   return (
     <div className="w-full h-auto">
       <SlideHeader />
-      <div className="flex flex-col">
-        <div className="flex  items-center justify-between mt-20 py-8 w-[98%] lg:w-[90%] mx-auto px-3 lg:px-0">
+      <div className="flex flex-col w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
+        <div className="flex  items-center justify-between mt-20 py-8">
           <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold ">
             پر بازدید ترین تخصص ها
           </div>
@@ -30,8 +30,8 @@ const MainHome = () => {
         </div>
         <Carousel />
       </div>
-      <div className="flex flex-col  overflow-hidden">
-        <div className="flex items-center justify-between w-[98%] lg:w-[90%] mx-auto px-3 lg:px-0">
+      <div className="flex flex-col  overflow-hidden w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
+        <div className="flex items-center justify-between">
           <div className="text-[#35383f] text-[16px] font-IRANSans lg:text-[30px] font-bold">
             خدمات دکتر آسپرین
           </div>
@@ -63,7 +63,7 @@ const MainHome = () => {
         </div>
         <ServicesDoctor />
         <ServicesDoctorBox />
-        <div className="flex flex-col w-[90%] mx-auto ">
+        <div className="flex flex-col">
           <div className="flex  items-center justify-between mt-20 py-8">
             <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">
               پزشکان آنلاین دکتر آسپرین
@@ -78,12 +78,17 @@ const MainHome = () => {
           <OnlineDoctor />
         </div>
       </div>
-      <ScanningComponet />
-
+      
+         <ScanningComponet />
+      <div className="flex flex-col  w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
       <FindDoctor />
       <Reservation />
+        </div>
       <Questions />
+      
+      <div className="flex flex-col  overflow-hidden  pl-3 lg:pl-6">
       <Experience />
+      </div>
       <InstagramComponents />
     </div>
   );

@@ -4,9 +4,9 @@ import React from "react";
 import ScrollToTopButton from "./ScrollToTopButton";
 export default function Footer() {
   return (
-    <footer className="bg-[#F5F5F5] text-gray-600 pt-8 ">
+    <footer className="bg-[#F5F5F5] text-gray-600 lg:pt-8 ">
       <div className="container mx-auto px-4">
-        <div className="mb-6 py-8 flex flex-col items-center lg:px-10 border-b border-[#e0e0e0]">
+        <div className="mb-6 py-6 flex flex-col items-center lg:px-10 border-b border-[#e0e0e0]">
           <div className="flex items-center justify-between w-full">
             <div className="hidden lg:block"></div>
             <div className="flex items-center gap-2">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SlideHeader() {
   return (
-    <div className="bg-[url('/back-m.jpg')] bg-auto bg-no-repeat bg-center w-full min-h-[406px] lg:min-h-[742px] flex items-start  flex-col relative">
+    <div className="bg-[url('/back-m.jpg')] bg-cover  bg-no-repeat bg-center w-full min-h-[406px] lg:min-h-[742px] flex items-start  flex-col relative">
       <div className="text-[#35383f] text-[16px] lg:text-[40px] font-IRANSans font-bold lg:font-black w-full flex flex-col items-center justify-center mt-[52px] lg:mt-[115px]">
         <div className="flex relative">
             <img src="/doctor1.svg" 

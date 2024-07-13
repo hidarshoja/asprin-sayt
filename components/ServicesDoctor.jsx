@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './MyCarouselSlick2.css';  // برای استایل‌های سفارشی
 
 export default function ServicesDoctor() {
-  const [activeCarouselIndex, setActiveCarouselIndex] = useState(null);
+  const [activeCarouselIndex, setActiveCarouselIndex] = useState(6);
   const settings = {
     dots: true,
     infinite: true,
@@ -86,8 +86,8 @@ const carouselItems = [
   {  title: "مرکز تصویر برداری" },
   {  title: "داروخانه" },
   { title: "آمبولانس خصوصی" },
-  {  title: "تجهیزات پزشکی" },
   {  title: "دامپزشکی" },
+  {  title: "تجهیزات پزشکی" },
   { title: "پزشک" },
 
   { title: "پزشک متخصص" },

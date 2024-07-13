@@ -3,7 +3,7 @@ import React from "react";
 export default function InstagramComponents() {
   return (
     <div>
-      <div className="hidden relative mx-auto  h-[369px] w-[90%] rounded-lg bg-[#2171E8] p-4 bg-[url('/Group10.png')] bg-no-repeat bg-center lg:flex lg:flex-row  flex-col">
+      <div className="hidden relative mx-auto  h-[369px] w-[90%] rounded-t-lg bg-[#2171E8] p-4 bg-[url('/Group10.png')] bg-cover bg-no-repeat bg-center lg:flex lg:flex-row  flex-col">
         <div className="w-full lg:w-1/2 mt-4 lg:mt-0 lg:ml-4 text-center lg:text-right">
           <h2 className="text-[24px] font-bold mb-2 mt-12 mr-12 text-white">
             صفحه رسمی ما را در اینستاگرام دنبال کنید
@@ -34,12 +34,13 @@ export default function InstagramComponents() {
             <img
               src="/mobile1.png"
               alt="Instagram Screenshot"
-              className="hidden lg:block rounded-t-2xl w-[300px] h-[474px] "
+              className="hidden lg:block rounded-t-2xl pl-16 w-[300px] h-[474px] "
             />
           </div>
         </div>
       </div>
-      <div className="lg:hidden w-[95%] mt-48 mx-auto bg-[#2171e8] h-[573px] relative flex items-center justify-center flex-col gap-3 bg-[url('/Frame1.svg')] bg-no-repeat bg-center">
+      <div className="block lg:hidden p-[18px]">
+      <div className="lg:hidden rounded-t-3xl  mt-24 mx-auto bg-[#2171e8] h-[573px] relative flex items-center justify-center flex-col gap-3 bg-[url('/Frame1.svg')] bg-no-repeat bg-cover">
         <div className="relative w-full flex justify-center h-[50%]">
           <img
             src="/mobile-i.svg"
@@ -69,6 +70,7 @@ export default function InstagramComponents() {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

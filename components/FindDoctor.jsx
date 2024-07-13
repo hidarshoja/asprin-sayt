@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import FindDoctorBox from "./FindDoctorBox";
 
 export default function FindDoctor() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(4);
   const [activeSpanIndex, setActiveSpanIndex] = useState(1);
   
   const buttonSets = [
@@ -46,7 +46,7 @@ export default function FindDoctor() {
   const buttons = activeSpanIndex !== null ? buttonSets[activeSpanIndex] : [];
 
   return (
-    <div className="w-full px-6 py-10 bg-white rtl">
+    <div className="w-full  py-10 bg-white rtl">
       <div className="max-w-7xl mx-auto">
         <div className="flex  items-center justify-between mt-20 py-8">
           <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">

@@ -70,7 +70,7 @@ export default function ServicesDoctorBox() {
             {carouselItems.map((item, index) => (
               <div
                 key={index}
-                className="carousel-item-services flex flex-col items-center gap-4 justify-center"
+                className="carousel-item-services p-4 flex flex-col items-center gap-4 justify-center"
               >
                 <div className="w-[237px] h-[189px] rounded-full flex items-center justify-center bg-[#f5f5f5]">
                   <img src={item.imgSrc} alt={item.altText} />
