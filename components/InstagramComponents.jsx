@@ -3,7 +3,7 @@ import React from "react";
 export default function InstagramComponents() {
   return (
     <div>
-      <div className="hidden relative mx-auto  h-[369px] w-[90%] rounded-t-lg bg-[#2171E8] p-4 bg-[url('/Group10.png')] bg-cover bg-no-repeat bg-center lg:flex lg:flex-row  flex-col">
+      <div className="hidden relative mx-auto lg:mt-20  h-[369px] w-[90%] rounded-t-lg bg-[#2171E8] p-4 bg-[url('/Group10.png')] bg-cover bg-no-repeat bg-center lg:flex lg:flex-row  flex-col">
         <div className="w-full lg:w-1/2 mt-4 lg:mt-0 lg:ml-4 text-center lg:text-right">
           <h2 className="text-[24px] font-bold mb-2 mt-12 mr-12 text-white">
             صفحه رسمی ما را در اینستاگرام دنبال کنید

@@ -5,8 +5,9 @@ import ScrollToTopButton from "./ScrollToTopButton";
 export default function Footer() {
   return (
     <footer className="bg-[#F5F5F5] text-gray-600 lg:pt-8 ">
-      <div className="container mx-auto px-4">
-        <div className="mb-6 py-6 flex flex-col items-center lg:px-10 border-b border-[#e0e0e0]">
+      <div className="flex flex-col  w-[98%] lg:w-[89%]  mx-auto px-3 lg:px-0">
+      <div>
+        <div className="mb-6 py-6 flex flex-col items-center  border-b border-[#e0e0e0]">
           <div className="flex items-center justify-between w-full">
             <div className="hidden lg:block"></div>
             <div className="flex items-center gap-2">
@@ -23,15 +24,15 @@ export default function Footer() {
               <ScrollToTopButton />
             </div>
           </div>
-          <p className="text-[10px] lg:text-[18px] font-normal text-justify mt-8 text-[#757575]">
+          <p className="text-[10px] text-center lg:text-[18px] font-normal  mt-8 text-[#757575]">
             دکترتو ساده‌ترین راه نوبت‌ دهی اینترنتی و مشاوره آنلاین پزشکان ایران
             است. پزشکان به کمک دکترتو می‌توانند امکان نوبت دهی اینترنتی و مشاوره
             تلفنی خود را فعال کنند. به این ترتیب بیمار برای نوبت گیری از دکتر
             نیاز به روش‌های سنتی مثل تلفن زدن یا مراجعه حضوری ندارد.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-between lg:px-20">
-          <div className="md:flex md:flex-1 justify-between gap-3">
+        <div className="flex flex-col md:flex-row justify-between">
+          <div className="md:flex md:flex-1 justify-between lg:gap-x-28">
             <div className="flex w-full lg:w-3/6 justify-between">
               <div className="mb-6 md:mb-0">
                 <h4 className="text-[10px] lg:text-[20px] text-[#35383F] font-medium mb-2">
@@ -176,6 +177,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex w-full lg:w-3/6 justify-between">
+            <div></div>
               <div className="mb-6 md:mb-0">
                 <h4 className="text-[10px] lg:text-[20px] text-[#35383F] font-medium mb-2">
                   دسترسی‌های سریع
@@ -186,7 +188,7 @@ export default function Footer() {
                       href="#"
                       className="text-[#757575]  font-normal py-1"
                     >
-                      عضویت / ورود
+                       عضویت و ثبت نام خدمات دهندگان
                     </a>
                   </li>
                   <li>
@@ -194,7 +196,7 @@ export default function Footer() {
                       href="#"
                       className="text-[#757575]  font-normal py-1"
                     >
-                      مشاهده تجربیات بیماران
+                        داستان و تجربیات از زبان بیماران
                     </a>
                   </li>
                   <li>
@@ -202,7 +204,7 @@ export default function Footer() {
                       href="#"
                       className="text-[#757575]  font-normal py-1"
                     >
-                      تماس با پشتیبانی
+                        تماس با پشتیبانی سایت
                     </a>
                   </li>
                 </ul>
@@ -238,6 +240,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
       <div className="text-center text-[10px] lg:text-[16px] text-[#9E9E9E] mt-6 w-full bg-[#EEE] h-[62px] flex items-center justify-center">
         تمامی حقوق مادی و معنوی متعلق به دکترآسپیرین می‌باشد.

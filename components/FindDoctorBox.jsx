@@ -113,7 +113,7 @@ export default function FindDoctorBox() {
         {currentDoctor.services.map((service, index) => (
           <span
             key={index}
-            className="bg-[#fafafa] text-[#757575] flex items-center justify-center text-[12px] lg:text-[14px] font-normal py-1 px-2 rounded-[70px] border border-[#e0e0e0]"
+            className="bg-[#fafafa] text-[#757575] flex items-center justify-center text-[12px] lg:text-[14px] font-normal py-3 px-4 mt-3 rounded-[70px] border border-[#e0e0e0]"
           >
             {service}
           </span>

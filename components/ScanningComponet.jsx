@@ -3,12 +3,12 @@ import React from "react";
 export default function ScanningComponent() {
   return (
     <>
-    <div className="flex flex-col bg-[#F5F5F5] py-4  lg:hidden">
+    <div className="flex flex-col bg-[#F5F5F5] py-4   lg:hidden">
          <div className="relative w-full">
           <img src="/petr.svg" className="w-[68px] h-[67px] absolute top-[-10px] right-[-10px]" alt="" />
           <img src="/girlH-m.svg" className="w-[90%] mx-auto" alt="" />
          </div>
-         <div className="w-full p-8 ">
+         <div className="w-full p-8">
         <p className="texxt-[14px] lg:text-[30px] text-[#35383f] font-bold mb-4">
           <span className="text-[#2171e8]">پویش</span> حمایت های مردمی
         </p>
@@ -44,7 +44,7 @@ export default function ScanningComponent() {
         className="w-[107px] h-[104px] absolute top-0 right-0"
         alt=""
       />
-      <div className="w-full lg:w-1/2 p-8 lg:p-16">
+      <div className="w-full lg:w-1/2 p-8 lg:p-16 mr-[6%]">
         <p className="texxt-[14px] lg:text-[30px] text-[#35383f] font-bold mb-4">
           <span className="text-[#2171e8]">پویش</span> حمایت های مردمی
         </p>

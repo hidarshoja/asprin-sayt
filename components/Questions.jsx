@@ -34,8 +34,8 @@ export default function FAQComponent() {
 
   return (
     <div className="w-full h-[850px] lg:h-[550px] bg-gray-100 py-12 rtl">
-      <div className="px-2 lg:l-0 lg:pr-10 flex flex-col lg:flex-row  gap-6">
-        <div className="flex-1">
+      <div className="px-2  lg:pr-10 flex flex-col lg:flex-row  gap-6">
+        <div className="flex-1 lg:mr-[8%]">
           <h2 className="text-[14px] lg:text-[30px] font-bold mb-6 text-right">
             <p className="text-[#2171e8] inline-block px-2">سوالات</p>
             متداول
@@ -59,7 +59,7 @@ export default function FAQComponent() {
             </div>
           ))}
         </div>
-        <div className="w-full lg:w-1/3 h-[200px] lg:h-[319px] rounded-2xl lg:rounded-r-2xl bg-[#2171e8] flex items-center justify-center px-6">
+        <div className="w-full lg:w-1/3 h-[200px] lg:h-[319px] rounded-r-2xl lg:rounded-r-2xl bg-[#2171e8] flex items-center justify-center px-6">
           <div className="bg-white mt-32 h-72 lg:h-96 p-6 rounded-2xl shadow-md flex flex-col items-center  lg:w-3/4">
             <img src="/customer.svg" alt="support" className="w-[72px] h-[72px] lg:w-[117px] lg:h-[117px]" />
             <h3 className="text-[16px] lg:text-[20px] font-medium mt-6 text-[#35383f]">نیاز به راهنمایی دارید؟</h3>

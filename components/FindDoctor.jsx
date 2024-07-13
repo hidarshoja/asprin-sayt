@@ -49,7 +49,7 @@ export default function FindDoctor() {
     <div className="w-full  py-10 bg-white rtl">
       <div className="max-w-7xl mx-auto">
         <div className="flex  items-center justify-between mt-20 py-8">
-          <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">
+          <div className="text-[#35383f] text-[16px] lg:text-[30px] font-bold">
             پیدا کردن دکتر با نوع بیماری
           </div>
           <div className="flex items-center gap-3 text-[#247CFF] text-[10px] lg:text-[16px] font-medium">
@@ -60,8 +60,8 @@ export default function FindDoctor() {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-16">
-          <div className="w-full lg:w-1/2 bg-[#2171e8] rounded-2xl relative">
-            <div className="w-full lg:absolute lg:top-12 lg:right-12 bg-white p-6 rounded-lg shadow-md">
+          <div className="w-full lg:w-1/2 bg-[#2171e8] rounded-2xl relative h-[325px]">
+            <div className="w-full lg:absolute lg:top-[55px] lg:right-12 bg-white p-6 rounded-lg shadow-md">
               <div className="flex flex-col lg:flex-row items-center gap-1 justify-between mb-4">
                 <div className="w-full lg:w-1/2 flex items-center">
                 <img src="/search.svg" alt="search icon" />

@@ -181,8 +181,8 @@ export default function Experience() {
 
   return (
     <div className="w-full bg-white min-h-[800px] py-3  lg:py-0 lg:h-[600px]">
-      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[86%] xl:w-[80%] mx-auto px-3 lg:px-0">
-        <div className="w-full lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
+      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[96%]  mx-auto px-3 lg:px-0">
+        <div className="w-full lg:mr-28 lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
           داستان و تجربه بیماران
         </div>
         <div className="w-full lg:w-3/4">
@@ -218,10 +218,10 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-12 items-center mt-10 lg:ml-20">
+      <div className="flex flex-col lg:flex-row gap-12 items-start mt-10 lg:ml-12">
         <div className="w-full lg:w-1/3 lg:bg-[#247cff] min-h-[444px] rounded-bl-2xl relative">
-          <div className="lg:absolute lg:left-[-25px] lg:top-[-40px] shadow-lg rounded-2xl p-6  bg-white min-h-96 flex flex-col items-center">
-            <img src="/Fram.png" className="w-full h-[188px]" alt="" />
+          <div className="lg:absolute lg:left-[-25px] lg:top-[-20px] shadow-lg rounded-2xl p-3  bg-white min-h-96 flex flex-col items-center">
+            <img src="/Fram.png" className="w-full lg:w-[360px] h-[188px]" alt="" />
             <p className="text-[#212121] mt-1 text-[14px] lg:text-[20px] font-medium">
               تجربه من از مبارزه با سرطان سینه
             </p>
@@ -270,12 +270,12 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-2/3 border rounded-2xl bg-white border-[#e0e0e0] p-2">
-          <div className="flex items-center flex-wrap gap-2 justify-between mb-4">
+        <div className="w-full lg:w-2/3 mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] p-2">
+          <div className="flex items-center p-4 flex-wrap gap-2 justify-between mb-4">
             {sections.map((section) => (
               <button
                 key={section.key}
-                className={`px-5 lg:px-8 text-[10px] lg:text-[16px] font-medium rounded-xl py-2 border ${
+                className={`px-5 lg:px-8 text-[10px] lg:text-[16px] font-medium rounded-xl py-4 border ${
                   activeSection === section.key
                     ? "bg-blue-500 text-white"
                     : "bg-[#f5f5f5] text-[#9e9e9e]"
