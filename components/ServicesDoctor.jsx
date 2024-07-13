@@ -41,7 +41,7 @@ export default function ServicesDoctor() {
       <Slider {...settings}>
         {carouselItems.map((item, index) => (
           <div key={index} 
-          className={`carousel-item-box cursor-pointer flex items-center justify-center text-[10px] lg:text-[14px] font-IRANSans text-[#9e9e9e] py-[14px] px-6 ${
+          className={`carousel-item-box border border-[#e0e0e0] cursor-pointer flex items-center justify-center text-[10px] lg:text-[14px] font-IRANSans text-[#9e9e9e] py-[14px] px-6 ${
             activeCarouselIndex === index ? 'active' : ''
           }`}
           onClick={() => setActiveCarouselIndex(index)}

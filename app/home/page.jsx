@@ -29,8 +29,6 @@ const MainHome = () => {
           </div>
         </div>
         <Carousel />
-      </div>
-      <div className="flex flex-col  overflow-hidden w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
         <div className="flex items-center justify-between">
           <div className="text-[#35383f] text-[16px] font-IRANSans lg:text-[30px] font-bold">
             خدمات دکتر آسپرین
@@ -78,16 +76,15 @@ const MainHome = () => {
           <OnlineDoctor />
         </div>
       </div>
-      
-         <ScanningComponet />
+      <ScanningComponet />
       <div className="flex flex-col  w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
-      <FindDoctor />
-      <Reservation />
-        </div>
+        <FindDoctor />
+        <Reservation />
+      </div>
       <Questions />
-      
+
       <div className="flex flex-col  overflow-hidden  pl-3 lg:pl-6">
-      <Experience />
+        <Experience />
       </div>
       <InstagramComponents />
     </div>
