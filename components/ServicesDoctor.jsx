@@ -31,7 +31,7 @@ export default function SwiperCarousel() {
         {carouselItems.map((item, index) => (
           <SwiperSlide key={index} 
           className={` ${
-            activeCarouselIndex == index ? 'swiper-slide-active' : ''
+            activeCarouselIndex === index ? 'swiper-slide-active' : ''
           }`}
           onClick={() => setActiveCarouselIndex(index)}
           >

@@ -304,7 +304,7 @@ export default function Experience() {
             ))}
           </div>
           <div className="w-full h-[1px] bg-[#9e9e9e]"></div>
-          <div className="text-[12px] lg:leading-8 xl:leading-10 lg:text-[18px] p-4 rounded font-normal text-[#757575]">
+          <div className="text-[12px] lg:leading-7  lg:text-[18px] p-4 rounded font-normal text-[#757575]">
             {renderContent()}
             <div className="flex items-center gap-1 justify-end absolute bottom-6 left-6">
               <img src="/Button1.png" className="h-[48px]" alt="" />

@@ -71,7 +71,7 @@ export default function FindDoctor() {
                   className="w-full p-2 text-[12px] lg:text-[16px] outline-none rounded border-none"
                 />
                 </div>
-                <select className="w-full lg:w-1/2 p-2 border rounded mr-2 text-[#9e9e9e] text-[12px] lg:text-[16px] border-none font-normal outline-none">
+                <select className="w-full lg:w-1/2 p-2 border rounded bg-transparent mr-2 text-[#9e9e9e] text-[12px] lg:text-[16px] border-none font-normal outline-none">
                   <option value="" disabled selected>
                     جستجوی نوع بیماری
                   </option>
