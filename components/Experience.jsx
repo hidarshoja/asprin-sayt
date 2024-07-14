@@ -61,22 +61,22 @@ export default function Experience() {
         return (
           <div>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>توجه به رژیم غذایی
               سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
               من کرد.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> حفظ روحیه مثبت و
               متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
               کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>داشتن یک شبکه
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>داشتن یک شبکه
               حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
               و امید برای من بودند.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> سعی کردم تا حد
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> سعی کردم تا حد
               امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
               پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
@@ -86,23 +86,23 @@ export default function Experience() {
         return (
           <div>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>توجه به رژیم غذایی
               سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
               من کرد.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> داشتن یک شبکه
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> داشتن یک شبکه
               حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
               و امید برای من بودند.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>سعی کردم تا حد
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>سعی کردم تا حد
               امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
               پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
 
             <p>
-              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> حفظ روحیه مثبت و
               متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
               کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
@@ -112,23 +112,23 @@ export default function Experience() {
         return (
           <div>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>توجه به رژیم غذایی
               سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
               من کرد.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> داشتن یک شبکه
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> داشتن یک شبکه
               حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
               و امید برای من بودند.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> سعی کردم تا حد
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> سعی کردم تا حد
               امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
               پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
 
             <p>
-              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> حفظ روحیه مثبت و
               متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
               کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
@@ -138,22 +138,22 @@ export default function Experience() {
         return (
           <div>
             <p>
-              <span className="font-bold">حمایت عاطفی : </span> داشتن یک شبکه
+              <span className="font-semibold text-[#424242]">حمایت عاطفی : </span> داشتن یک شبکه
               حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
               و امید برای من بودند.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span>سعی کردم تا حد
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span>سعی کردم تا حد
               امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
               پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> توجه به رژیم غذایی
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> توجه به رژیم غذایی
               سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
               من کرد.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> حفظ روحیه مثبت و
               متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
               کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
@@ -163,7 +163,7 @@ export default function Experience() {
         return (
           <div>
             <p>
-              <span className="font-bold">حمایت عاطفی : </span>داشتن یک شبکه
+              <span className="font-semibold text-[#424242]">حمایت عاطفی : </span>داشتن یک شبکه
               حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
               و امید برای من بودند.
             </p>
@@ -173,12 +173,12 @@ export default function Experience() {
               انرژی بیشتری داشته باشم.
             </p>
             <p>
-              <span className="font-bold"> تغذیه مناسب : </span> توجه به رژیم
+              <span className="font-semibold text-[#424242]"> تغذیه مناسب : </span> توجه به رژیم
               غذایی سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک
               زیادی به من کرد.
             </p>
             <p>
-              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              <span className="font-semibold text-[#424242]">حفظ روحیه : </span> حفظ روحیه مثبت و
               متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
               کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
@@ -287,8 +287,8 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[59%] mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[443px]">
-          <div className="flex items-center p-4 flex-wrap gap-2 justify-between mb-4">
+        <div className="w-full lg:w-[59%] relative mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[443px]">
+          <div className="flex items-center px-4 py-6 flex-wrap gap-2 justify-between">
             {sections.map((section) => (
               <button
                 key={section.key}
@@ -304,9 +304,9 @@ export default function Experience() {
             ))}
           </div>
           <div className="w-full h-[1px] bg-[#9e9e9e]"></div>
-          <div className="text-[12px] leading-10 lg:text-[18px] p-4 rounded font-medium">
+          <div className="text-[12px] lg:leading-8 xl:leading-10 lg:text-[18px] p-4 rounded font-normal text-[#757575]">
             {renderContent()}
-            <div className="flex items-center gap-1 justify-end">
+            <div className="flex items-center gap-1 justify-end absolute bottom-6 left-6">
               <img src="/Button1.png" className="h-[48px]" alt="" />
               <img src="/Button2.png" className="h-[48px]" alt="" />
               <button className="text-[#247cff] h-[48px] border border-[#247cff] px-3 lg:px-8 flex items-center justify-center text-[12px] lg:text-[14px] font-medium rounded-xl">

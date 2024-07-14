@@ -1,81 +1,45 @@
 "use client"
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import './MyCarouselSlick2.css';  // برای استایل‌های سفارشی
 
-export default function ServicesDoctor() {
-  const [activeCarouselIndex, setActiveCarouselIndex] = useState(6);
+import React, { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import './MyCarouselSlick2.css'; 
+
+export default function SwiperCarousel() {
+  const [activeCarouselIndex, setActiveCarouselIndex] = useState(null);
+
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 8.5,
-    slidesToScroll: 1,
-    
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4.5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
+    slidesPerView: 8.5,
+    spaceBetween: 10,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 4.5,
       },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 3.5,
-          slidesToScroll: 1
-        }
-      }
-    ]
+      600: {
+        slidesPerView: 2.5,
+      },
+    },
   };
 
   return (
-    <div className="carousel-container-box mt-10 overflow-hidden">
-      <Slider {...settings}>
+    <div className="mt-10 overflow-hidden">
+      <Swiper {...settings} onSlideChange={(swiper) => setActiveCarouselIndex(swiper.activeIndex)}>
         {carouselItems.map((item, index) => (
-          <div key={index} 
-          className={`carousel-item-box border border-[#e0e0e0] cursor-pointer flex items-center justify-center text-[10px] lg:text-[14px] font-IRANSans text-[#9e9e9e] py-[14px] px-6 ${
-            activeCarouselIndex === index ? 'active' : ''
+          <SwiperSlide key={index} 
+          className={` ${
+            activeCarouselIndex == index ? 'swiper-slide-active' : ''
           }`}
           onClick={() => setActiveCarouselIndex(index)}
           >
-            
-            
-              {item.title}
-            
-          </div>
+            {item.title}
+          </SwiperSlide>
         ))}
-      </Slider>
+      </Swiper>
     </div>
-  );
-}
-
-const SampleNextArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "black" }}
-      onClick={onClick}
-    />
-  );
-}
-
-const SamplePrevArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "black" }}
-      onClick={onClick}
-    />
   );
 }
 
@@ -83,13 +47,12 @@ const carouselItems = [
   { title: "پرستار در منزل" },
   { title: "درمانگاه و کلینیک" },
   { title: "آزمایشگاه" },
-  {  title: "مرکز تصویر برداری" },
-  {  title: "داروخانه" },
+  { title: "مرکز تصویر برداری" },
+  { title: "داروخانه" },
   { title: "آمبولانس خصوصی" },
-  {  title: "دامپزشکی" },
-  {  title: "تجهیزات پزشکی" },
+  { title: "دامپزشکی" },
+  { title: "تجهیزات پزشکی" },
   { title: "پزشک" },
-
   { title: "پزشک متخصص" },
- 
 ];
+

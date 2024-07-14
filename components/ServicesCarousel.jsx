@@ -30,7 +30,7 @@ const MyCarouselSlick = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.5,
           slidesToScroll: 1
         }
       }

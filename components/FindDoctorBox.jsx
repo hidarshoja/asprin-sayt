@@ -47,16 +47,17 @@ export default function FindDoctorBox() {
   const currentDoctor = doctorData[currentIndex];
 
   return (
-    <div className="w-full bg-white px-6 py-11 rounded-lg shadow-md relative">
-      <div className="flex items-start mb-4">
-        <div className="w-1/4">
+    <div className="w-full bg-white px-6 lg:py-2 xl:py-6 2xl:py-10 rounded-lg shadow-md relative border border-[#E0E0E0]  min-h-[365px]">
+      <div className="flex w-full  justify-between items-start mb-4">
+        <div className="flex items-center">
+        <div>
           <img
             src={currentDoctor.image}
             alt="doctor"
             className="w-[91px] h-[91px] rounded-xl"
           />
         </div>
-        <div className="hidden lg:block w-2/4">
+        <div className="hidden lg:flex flex-col gap-2 mr-[22px]">
           <h3 className="lg:text-[24px] text-[#212121] font-bold">
             {currentDoctor.name}
           </h3>
@@ -68,15 +69,16 @@ export default function FindDoctorBox() {
             <span>{currentDoctor.location}</span>
           </p>
         </div>
-        <div className="hidden lg:flex items-end ml-12 justify-end gap-3 flex-col mt-2 w-1/4">
-          <div className="flex gap-1 text-yellow-400">
-            <FaStarHalfAlt />
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
+        </div>
+        <div className="hidden lg:flex items-end  justify-end gap-3 flex-col mt-2 ">
+          <div className="flex gap-[1px]">
+          <img src="/star05.svg" className="w-5 h-5 lg:w-7 lg:h-7" alt="" />
+          <img src="/star10.svg" className="w-5 h-5 lg:w-7 lg:h-7" alt="" />
+          <img src="/star10.svg" className="w-5 h-5 lg:w-7 lg:h-7" alt="" />
+          <img src="/star10.svg" className="w-5 h-5 lg:w-7 lg:h-7" alt="" />
+          <img src="/star10.svg" className="w-5 h-5 lg:w-7 lg:h-7" alt="" />
           </div>
-          <button className="bg-[#2171e8] text-white text-[14px] py-1 px-6 rounded mr-4">
+          <button className="bg-[#2171e8] text-white text-[14px] h-12 w-[136px] px-7  rounded-xl ">
             رزرو نوبت
           </button>
         </div>
@@ -103,13 +105,13 @@ export default function FindDoctorBox() {
           <button className="bg-[#2171e8] w-[80%] mx-auto lg:hidden text-white text-[14px] py-1 px-6 rounded mr-4">
             رزرو نوبت
           </button>
-      <p className="text-[12px] mt-3 lg:text-[16px] text-[#757575] mb-4">
+      <p className="text-[12px] mt-3 lg:text-[16px] text-[#757575]">
         <span className="text-[#424242]">آدرس مطب:</span> {currentDoctor.address}
       </p>
-      <p className="text-[#424242] text-[12px] lg:text-[16px] font-medium text-right py-3">
+      <p className="text-[#424242] text-[12px] mt-4 lg:text-[16px] font-medium text-right">
         خدمات {currentDoctor.name}
       </p>
-      <div className="flex gap-2">
+      <div className="flex items-center justify-start mt-3 gap-2">
         {currentDoctor.services.map((service, index) => (
           <span
             key={index}
