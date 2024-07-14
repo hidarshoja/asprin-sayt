@@ -5,7 +5,7 @@ import ScrollToTopButton from "./ScrollToTopButton";
 export default function Footer() {
   return (
     <footer className="bg-[#F5F5F5] text-gray-600 lg:pt-8 ">
-      <div className="flex flex-col  w-[98%] lg:w-[89%]  mx-auto px-3 lg:px-0">
+      <div className="flex flex-col  w-[98%] lg:w-[89%] xl:w-[81%] mx-auto px-3 lg:px-0">
       <div>
         <div className="mb-6 py-6 flex flex-col items-center  border-b border-[#e0e0e0]">
           <div className="flex items-center justify-between w-full">

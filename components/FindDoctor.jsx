@@ -47,7 +47,7 @@ export default function FindDoctor() {
 
   return (
     <div className="w-full  py-10 bg-white rtl">
-      <div className="max-w-7xl mx-auto">
+      <div>
         <div className="flex  items-center justify-between mt-20 py-8">
           <div className="text-[#35383f] text-[16px] lg:text-[30px] font-bold">
             پیدا کردن دکتر با نوع بیماری

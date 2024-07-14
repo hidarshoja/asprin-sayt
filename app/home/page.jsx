@@ -43,6 +43,7 @@ const MainHome = () => {
                 className="block w-full rounded-md border border-[#e0e0e0] py-[11px] pr-12 bg-white text-[#9E9E9E] shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
               />
               <div className="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
+                
                 <img
                   src="/search.svg"
                   className="w-6 h-6 mt-1 cursor-pointer"
@@ -86,7 +87,10 @@ const MainHome = () => {
       <div className="flex flex-col  overflow-hidden  pl-3 lg:pl-6">
         <Experience />
       </div>
+      <div className="flex flex-col  w-[98%] lg:w-[89%] xl:w-[81%] mx-auto px-3 lg:px-0">
+
       <InstagramComponents />
+      </div>
     </div>
   );
 };

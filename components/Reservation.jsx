@@ -26,7 +26,7 @@ export default function ReservationSteps() {
 
   return (
     <div className="w-full bg-white py-12">
-      <div className="max-w-7xl mx-auto">
+      <div>
         <h2 className="text-[14px] lg:text-[30px] font-bold text-[#35383F] mb-6 text-start">مراحل رزرو نوبت آنلاین</h2>
         <div className="flex flex-col lg:flex-row gap-6 mt-12">
           {steps.map((step, index) => (

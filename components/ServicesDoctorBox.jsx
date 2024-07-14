@@ -29,7 +29,7 @@ export default function ServicesDoctorBox() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
           slidesToScroll: 1,
         },
       },
@@ -37,8 +37,8 @@ export default function ServicesDoctorBox() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center mt-4">
-      <div className="w-[95%] mx-auto lg:w-[408px]">
+    <div className="flex flex-col lg:flex-row items-center justify-between w-full mt-4">
+      <div className="w-[95%]  mx-auto lg:w-[408px]">
         <div className=" flex  gap-4 flex-col items-center px-6 py-[27px] rounded-2xl bg-[#2171eb]">
         <div className="w-full flex items-center justify-between lg:justify-center">
         <div className="flex flex-row items-center gap-1 lg:flex-col">

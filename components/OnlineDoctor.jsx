@@ -81,26 +81,26 @@ export default function OnlineDoctor() {
         {doctors.map((doctor) => (
           <div
             key={doctor.id}
-            className="flex w-1/4 py-6 px-8 flex-col items-center gap-8 rounded-2xl bg-white border border-[#e0e0e0]"
+            className="flex w-1/4  py-6 px-8 flex-col items-center  rounded-2xl bg-white border border-[#e0e0e0]"
           >
             <div className="relative">
-              <img src={doctor.image} alt="" />
-              <img src={doctor.ellImage} className="absolute bottom-1" alt="" />
+              <img src={doctor.image} className="w-[64px] h-[64px] lg:w-[84px] lg:h-[84px]" alt="2" />
+              <img src={doctor.ellImage} className="absolute bottom-1" alt="1" />
             </div>
-            <span className="text-[#212121] text-[20px] font-medium">
+            <span className="text-[#212121] text-[20px] mt-4 font-medium">
               {doctor.name}
             </span>
-            <span className="text-[#757575] text-[16px] font-normal">
+            <span className="text-[#757575] mt-1 text-[12px] lg:text-[16px] font-normal">
               {doctor.specialty}
             </span>
-            <span className="flex items-center gap-1">
-              <img src="/star1.svg" alt="star" />
-              <span className="text-[#FFA724]">{doctor.rating}</span>
-              <span className="text-[#BDBDBD] text-[16px]">
+            <span className="flex items-center gap-1 mt-1 mb-8">
+              <img src="/Star7.svg" className="w-5 h-5 lg:w-6 lg:h-6" alt="star" />
+              <span className="text-[#FFA724] text-[12px] lg:text-[16px]">{doctor.rating}</span>
+              <span className="text-[#BDBDBD] text-[12px] lg:text-[16px]">
                 ({doctor.consultations} مشاوره)
               </span>
             </span>
-            <button className="w-full py-6 px-8 rounded-2xl border border-[#e0e0e0] bg-white text-[#247cff] flex items-center justify-center gap-2">
+            <button className="w-full h-12 px-8 rounded-2xl border border-[#e0e0e0] bg-white text-[#247cff] flex items-center justify-center gap-2">
               <span>نوبت بگیرید</span>
               <span>
                 <img src="/arr.svg" alt="" />

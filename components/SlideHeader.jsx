@@ -31,7 +31,7 @@ export default function SlideHeader() {
             خدمات
           </button>
         </div>
-        <div className="flex bg-white shadow-2xl border border-[#e4ecfc78] gap-5 shadow-[#bfd1f578]  w-[80%] lg:w-60%] my-auto flex-col lg:flex-row py-7 px-4 rounded-2xl">
+        <div className="flex bg-white shadow-2xl border border-[#e4ecfc78] gap-5 shadow-[#bfd1f578]  w-[80%] lg:w-[60%] my-auto flex-col lg:flex-row py-7 px-4 rounded-2xl">
           <div className="w-full lg:w-2/5">
             <div>
               <div className="relative mt-2 flex items-center">

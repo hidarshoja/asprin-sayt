@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState } from 'react';
-import Slider from 'react-slick';
+import React, { useState } from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import './MyCarouselSlick2.css';  // برای استایل‌های سفارشی
+import "./MyCarouselSlick2.css"; // برای استایل‌های سفارشی
 
 const categories = [
   { name: "بیمارهای زنان", key: "women" },
@@ -32,7 +32,7 @@ export default function Experience() {
     speed: 500,
     slidesToShow: 9,
     slidesToScroll: 1,
-    
+
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -42,17 +42,17 @@ export default function Experience() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const renderContent = () => {
@@ -61,22 +61,24 @@ export default function Experience() {
         return (
           <div>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>توجه به رژیم غذایی سالم و متعادل بسیار مهم بود. مشورت
-              با یک متخصص تغذیه کمک زیادی به من کرد.
+              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
+              من کرد.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> حفظ روحیه مثبت و متعادل چالش برانگیز بود، اما بسیار مهم
-              است. من سعی کردم با مطالعه کتاب‌های انگیزشی و شرکت در جلسات
-              مشاوره، روحم را حفظ کنم.
+              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
+              کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>داشتن یک شبکه حمایتی از خانواده و دوستان بسیار مهم
-              است. آنها منبعی بزرگ از انرژی و امید برای من بودند.
+              <span className="font-bold">حفظ روحیه : </span>داشتن یک شبکه
+              حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
+              و امید برای من بودند.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> سعی کردم تا حد امکان به فعالیت‌های روزمره‌ام
-              ادامه دهم. ورزش‌های سبک مانند یوگا و پیاده‌روی به من کمک کردند تا
-              انرژی بیشتری داشته باشم.
+              <span className="font-bold">حفظ روحیه : </span> سعی کردم تا حد
+              امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
+              پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
           </div>
         );
@@ -84,23 +86,25 @@ export default function Experience() {
         return (
           <div>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>توجه به رژیم غذایی سالم و متعادل بسیار مهم بود. مشورت
-              با یک متخصص تغذیه کمک زیادی به من کرد.
+              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
+              من کرد.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> داشتن یک شبکه حمایتی از خانواده و دوستان بسیار مهم
-              است. آنها منبعی بزرگ از انرژی و امید برای من بودند.
+              <span className="font-bold">حفظ روحیه : </span> داشتن یک شبکه
+              حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
+              و امید برای من بودند.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>سعی کردم تا حد امکان به فعالیت‌های روزمره‌ام
-              ادامه دهم. ورزش‌های سبک مانند یوگا و پیاده‌روی به من کمک کردند تا
-              انرژی بیشتری داشته باشم.
+              <span className="font-bold">حفظ روحیه : </span>سعی کردم تا حد
+              امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
+              پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
 
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> حفظ روحیه مثبت و متعادل چالش برانگیز بود، اما بسیار مهم
-              است. من سعی کردم با مطالعه کتاب‌های انگیزشی و شرکت در جلسات
-              مشاوره، روحم را حفظ کنم.
+              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
+              کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
           </div>
         );
@@ -108,23 +112,25 @@ export default function Experience() {
         return (
           <div>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>توجه به رژیم غذایی سالم و متعادل بسیار مهم بود. مشورت
-              با یک متخصص تغذیه کمک زیادی به من کرد.
+              <span className="font-bold">حفظ روحیه : </span>توجه به رژیم غذایی
+              سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
+              من کرد.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> داشتن یک شبکه حمایتی از خانواده و دوستان بسیار مهم
-              است. آنها منبعی بزرگ از انرژی و امید برای من بودند.
+              <span className="font-bold">حفظ روحیه : </span> داشتن یک شبکه
+              حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
+              و امید برای من بودند.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> سعی کردم تا حد امکان به فعالیت‌های روزمره‌ام
-              ادامه دهم. ورزش‌های سبک مانند یوگا و پیاده‌روی به من کمک کردند تا
-              انرژی بیشتری داشته باشم.
+              <span className="font-bold">حفظ روحیه : </span> سعی کردم تا حد
+              امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
+              پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
 
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> حفظ روحیه مثبت و متعادل چالش برانگیز بود، اما بسیار مهم
-              است. من سعی کردم با مطالعه کتاب‌های انگیزشی و شرکت در جلسات
-              مشاوره، روحم را حفظ کنم.
+              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
+              کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
           </div>
         );
@@ -132,22 +138,24 @@ export default function Experience() {
         return (
           <div>
             <p>
-            <span className='font-bold'>حمایت عاطفی : </span> داشتن یک شبکه حمایتی از خانواده و دوستان بسیار مهم
-              است. آنها منبعی بزرگ از انرژی و امید برای من بودند.
+              <span className="font-bold">حمایت عاطفی : </span> داشتن یک شبکه
+              حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
+              و امید برای من بودند.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span>سعی کردم تا حد امکان به فعالیت‌های روزمره‌ام
-              ادامه دهم. ورزش‌های سبک مانند یوگا و پیاده‌روی به من کمک کردند تا
-              انرژی بیشتری داشته باشم.
+              <span className="font-bold">حفظ روحیه : </span>سعی کردم تا حد
+              امکان به فعالیت‌های روزمره‌ام ادامه دهم. ورزش‌های سبک مانند یوگا و
+              پیاده‌روی به من کمک کردند تا انرژی بیشتری داشته باشم.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> توجه به رژیم غذایی سالم و متعادل بسیار مهم بود. مشورت
-              با یک متخصص تغذیه کمک زیادی به من کرد.
+              <span className="font-bold">حفظ روحیه : </span> توجه به رژیم غذایی
+              سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک زیادی به
+              من کرد.
             </p>
             <p>
-            <span className='font-bold'>حفظ روحیه : </span> حفظ روحیه مثبت و متعادل چالش برانگیز بود، اما بسیار مهم
-              است. من سعی کردم با مطالعه کتاب‌های انگیزشی و شرکت در جلسات
-              مشاوره، روحم را حفظ کنم.
+              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
+              کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
           </div>
         );
@@ -155,8 +163,9 @@ export default function Experience() {
         return (
           <div>
             <p>
-            <span className='font-bold'>حمایت عاطفی : </span>داشتن یک شبکه حمایتی از خانواده و دوستان بسیار مهم
-              است. آنها منبعی بزرگ از انرژی و امید برای من بودند.
+              <span className="font-bold">حمایت عاطفی : </span>داشتن یک شبکه
+              حمایتی از خانواده و دوستان بسیار مهم است. آنها منبعی بزرگ از انرژی
+              و امید برای من بودند.
             </p>
             <p>
               فعالیت‌های روزانه: سعی کردم تا حد امکان به فعالیت‌های روزمره‌ام
@@ -164,13 +173,14 @@ export default function Experience() {
               انرژی بیشتری داشته باشم.
             </p>
             <p>
-            <span className='font-bold'> تغذیه مناسب : </span> توجه به رژیم غذایی سالم و متعادل بسیار مهم بود. مشورت
-              با یک متخصص تغذیه کمک زیادی به من کرد.
+              <span className="font-bold"> تغذیه مناسب : </span> توجه به رژیم
+              غذایی سالم و متعادل بسیار مهم بود. مشورت با یک متخصص تغذیه کمک
+              زیادی به من کرد.
             </p>
             <p>
-              <span className='font-bold'>حفظ روحیه : </span> حفظ روحیه مثبت و متعادل چالش برانگیز بود، اما بسیار مهم
-              است. من سعی کردم با مطالعه کتاب‌های انگیزشی و شرکت در جلسات
-              مشاوره، روحم را حفظ کنم.
+              <span className="font-bold">حفظ روحیه : </span> حفظ روحیه مثبت و
+              متعادل چالش برانگیز بود، اما بسیار مهم است. من سعی کردم با مطالعه
+              کتاب‌های انگیزشی و شرکت در جلسات مشاوره، روحم را حفظ کنم.
             </p>
           </div>
         );
@@ -181,8 +191,8 @@ export default function Experience() {
 
   return (
     <div className="w-full bg-white min-h-[800px] py-3  lg:py-0 lg:h-[600px]">
-      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[96%]  mx-auto px-3 lg:px-0">
-        <div className="w-full lg:mr-[135px] lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
+      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[85%]  mx-auto px-3 lg:px-0">
+        <div className="w-full mr-[3%]  lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
           داستان و تجربه بیماران
         </div>
         <div className="w-full lg:w-3/4">
@@ -218,10 +228,17 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-12 items-start mt-10 lg:ml-12">
-        <div className="w-full lg:w-1/3 lg:bg-[#247cff] min-h-[444px] rounded-bl-2xl relative">
-          <div className="lg:absolute lg:left-[-25px] lg:top-[-20px] shadow-lg rounded-2xl p-3  bg-white min-h-96 flex flex-col items-center">
-            <img src="/Fram.png" className="w-full lg:w-[360px] h-[188px]" alt="" />
+      <div className="flex flex-col lg:flex-row gap-12 items-start mt-10 lg:ml-12 ">
+        <div className="w-full lg:w-[30%] lg:mr-10 lg:bg-[#247cff] min-h-[464px] rounded-bl-2xl relative">
+          <div
+            className="lg:absolute min-h-[443px] lg:left-[-25px] lg:top-[-27px] shadow-xl shadow-[#F1F1F1A1
+] rounded-2xl p-3  bg-white  flex flex-col items-center"
+          >
+            <img
+              src="/Fram.png"
+              className="w-full lg:w-[360px] h-[188px]"
+              alt=""
+            />
             <p className="text-[#212121] mt-1 text-[14px] lg:text-[20px] font-medium">
               تجربه من از مبارزه با سرطان سینه
             </p>
@@ -270,7 +287,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-2/3 mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] p-2">
+        <div className="w-full lg:w-[59%] mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[443px]">
           <div className="flex items-center p-4 flex-wrap gap-2 justify-between mb-4">
             {sections.map((section) => (
               <button
@@ -286,12 +303,13 @@ export default function Experience() {
               </button>
             ))}
           </div>
-          <div className="border text-[12px] lg:text-[18px] p-4 rounded font-medium">
+          <div className="w-full h-[1px] bg-[#9e9e9e]"></div>
+          <div className="text-[12px] leading-10 lg:text-[18px] p-4 rounded font-medium">
             {renderContent()}
             <div className="flex items-center gap-1 justify-end">
-              <img src="/Button1.png" alt="" />
-              <img src="/Button2.png" alt="" />
-              <button className="text-[#247cff] border border-[#247cff] px-3 lg:px-8 py-3 text-[12px] lg:text-[14px] font-medium rounded-xl">
+              <img src="/Button1.png" className="h-[48px]" alt="" />
+              <img src="/Button2.png" className="h-[48px]" alt="" />
+              <button className="text-[#247cff] h-[48px] border border-[#247cff] px-3 lg:px-8 flex items-center justify-center text-[12px] lg:text-[14px] font-medium rounded-xl">
                 مشاهده همه داستان ها
               </button>
             </div>

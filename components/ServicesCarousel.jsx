@@ -11,7 +11,7 @@ const MyCarouselSlick = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 7.5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -24,7 +24,7 @@ const MyCarouselSlick = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: true,
         }
       },
       {
