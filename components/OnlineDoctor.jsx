@@ -9,7 +9,7 @@ const doctors = [
   {
     id: 1,
     image: "/04.png",
-    ellImage: "/ell.svg",
+    ellImage: "/Ell.svg",
     name: "بردیا احمدیان",
     specialty: "متخصص بیماری های کودکان",
     rating: 4.9,
@@ -18,7 +18,7 @@ const doctors = [
   {
     id: 2,
     image: "/doc2.png",
-    ellImage: "/ell.svg",
+    ellImage: "/Ell.svg",
     name: "نگین رضایی",
     specialty: "متخصص بیماری‌های قلب",
     rating: 4.8,
@@ -27,7 +27,7 @@ const doctors = [
   {
     id: 3,
     image: "/doc2.png",
-    ellImage: "/ell.svg",
+    ellImage: "/Ell.svg",
     name: "سارا بهرامی",
     specialty: "متخصص بیماری‌های گوارش",
     rating: 4.7,
@@ -36,7 +36,7 @@ const doctors = [
   {
     id: 4,
     image: "/04.png",
-    ellImage: "/ell.svg",
+    ellImage: "/Ell.svg",
     name: "مهدی حیدری",
     specialty: "متخصص بیماری‌های پوست",
     rating: 4.6,
