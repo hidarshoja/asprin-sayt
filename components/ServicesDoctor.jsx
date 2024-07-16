@@ -30,8 +30,8 @@ export default function SwiperCarousel() {
       <Swiper {...settings} onSlideChange={(swiper) => setActiveCarouselIndex(swiper.activeIndex)}>
         {carouselItems.map((item, index) => (
           <SwiperSlide key={index} 
-          className={` ${
-            activeCarouselIndex === index ? 'swiper-slide-active' : ''
+          className={`swiperCard ${
+            activeCarouselIndex === index ? 'swiperCard-active' : ''
           }`}
           onClick={() => setActiveCarouselIndex(index)}
           >

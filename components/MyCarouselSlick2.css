@@ -57,7 +57,7 @@ white-space: nowrap !important;
     border-bottom-color: #2171e8 !important;
   }
 
-  .swiper-slide{
+  .swiperCard{
     width: 134px !important;
     height: 48px !important;
     display: flex !important;
@@ -72,7 +72,7 @@ white-space: nowrap !important;
     cursor: pointer !important;
   }
 
-  .swiper-slide-active{
+  .swiperCard-active{
     color: #2171e8 !important;
     border-color: #2171e8 !important;
   }
