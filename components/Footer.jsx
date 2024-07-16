@@ -210,7 +210,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mb-6 md:mb-0">
-                <ul className="space-y-1 text-[10px] lg:text-[18px] mt-6 flex flex-col gap-4">
+                <ul className="space-y-1 text-[10px] lg:text-[18px] mt-6 flex flex-col gap-1 lg:gap-4">
                   <li>
                     <a
                       href="#"

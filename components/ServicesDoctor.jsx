@@ -26,7 +26,7 @@ export default function SwiperCarousel() {
   };
 
   return (
-    <div className="mt-10 overflow-hidden">
+    <div className="mt-4 lg:mt-10 overflow-hidden">
       <Swiper {...settings} onSlideChange={(swiper) => setActiveCarouselIndex(swiper.activeIndex)}>
         {carouselItems.map((item, index) => (
           <SwiperSlide key={index} 

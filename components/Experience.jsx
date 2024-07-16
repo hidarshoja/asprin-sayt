@@ -190,8 +190,8 @@ export default function Experience() {
   };
 
   return (
-    <div className="w-full bg-white min-h-[800px] py-3  lg:py-0 lg:h-[600px]">
-      <div className="flex flex-col lg:flex-row mt-32 items-center justify-between w-[98%] lg:w-[85%]  mx-auto px-3 lg:px-0">
+    <div className="w-full bg-white  min-h-[800px] py-3  lg:py-0 lg:h-[600px]">
+      <div className="flex flex-col  lg:flex-row mt-10 lg:mt-32 items-center justify-between w-[98%] lg:w-[85%]  mx-auto px-3 lg:px-0">
         <div className="w-full mr-[3%]  lg:w-1/4 text-[#35383f] text-[14px] lg:text-[30px] font-bold">
           داستان و تجربه بیماران
         </div>
@@ -211,7 +211,7 @@ export default function Experience() {
               </button>
             ))}
           </div>
-          <div className="carousel-container-box mt-10 overflow-hidden lg:hidden">
+          <div className="carousel-container-box mt-2 lg:mt-10 overflow-hidden lg:hidden">
             <Slider {...settings}>
               {categories.map((item, index) => (
                 <div
@@ -228,10 +228,10 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-12 items-start mt-10 lg:ml-12 ">
-        <div className="w-full lg:w-[30%] lg:mr-10 lg:bg-[#247cff] min-h-[464px] rounded-bl-2xl relative">
+      <div className="flex flex-col lg:flex-row gap-12 items-start mt-4 lg:mt-10 lg:ml-12 ">
+        <div className="w-full lg:w-[30%] lg:mr-10 lg:bg-[#247cff] min-h-[400px] lg:min-h-[464px] rounded-bl-2xl relative">
           <div
-            className="lg:absolute min-h-[443px] lg:left-[-25px] lg:top-[-27px] shadow-xl shadow-[#F1F1F1A1
+            className="lg:absolute min-h-[390px] lg:min-h-[443px] lg:left-[-25px] lg:top-[-27px] shadow-xl shadow-[#F1F1F1A1
 ] rounded-2xl p-3  bg-white  flex flex-col items-center"
           >
             <img
@@ -287,12 +287,12 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-[59%] relative mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[443px]">
+        <div className="w-full lg:w-[59%] relative mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[493px] lg:min-h-[443px]">
           <div className="flex items-center px-4 py-6 flex-wrap gap-2 justify-between">
             {sections.map((section) => (
               <button
                 key={section.key}
-                className={`px-5 lg:px-8 text-[10px] lg:text-[16px] font-medium rounded-xl py-4 border ${
+                className={`px-3 py-3 lg:px-8 text-[10px] lg:text-[16px] font-medium rounded-xl lg:py-4 border ${
                   activeSection === section.key
                     ? "bg-blue-500 text-white"
                     : "bg-[#f5f5f5] text-[#9e9e9e]"

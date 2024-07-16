@@ -9,7 +9,7 @@ export default function ScanningComponent() {
           <img src="/girlH-m.svg" className="w-[90%] mx-auto" alt="" />
          </div>
          <div className="w-full p-8">
-        <p className="texxt-[14px] lg:text-[30px] text-[#35383f] font-bold mb-4">
+        <p className="text-center lg:text-start text-[14px] lg:text-[30px] text-[#35383f] font-bold mb-4">
           <span className="text-[#2171e8]">پویش</span> حمایت های مردمی
         </p>
         <span className="text-[12px] lg:text-[18px] text-[#616161] leading-8 text-justify font-medium">
@@ -22,13 +22,13 @@ export default function ScanningComponent() {
           عزیزان درمان شدند. با هر مبلغی می‌توانید به این حمایت‌های مردمی ما
           بپیوندید.
         </span>
-        <div className="flex items-center justify-between mt-12">
+        <div className="flex items-center justify-center relative lg:justify-between mt-4 lg:mt-12">
           <div>
             <button className="flex w-[197px] h-14 justify-center items-center rounded-xl bg-[#247cff] text-white text-base font-medium">
               بیشتر بدانید
             </button>
           </div>
-          <div>
+          <div className="absolute lg:relative left-[-10px] top-[-70px]">
             <img
               src="/flash.svg"
               className="w-[51px] h-[103px] fill-[#eee]"

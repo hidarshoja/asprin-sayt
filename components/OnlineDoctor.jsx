@@ -118,13 +118,13 @@ export default function OnlineDoctor() {
                 {doctors.map((doctor, index) => (
                   <div
                   key={doctor.id}
-                  className="flex  py-6 px-8 flex-col items-center justify-center gap-8 rounded-2xl bg-white border border-[#e0e0e0]"
+                  className="flex  p-4 w-[168px] flex-col items-center justify-center gap-8 rounded-2xl bg-white border border-[#e0e0e0]"
                 >
                   <div className="relative w-full flex items-center justify-center">
-                    <img src={doctor.image} alt="" />
-                    <img src={doctor.ellImage} className="absolute bottom-1 left-[90px]" alt="" />
+                    <img src={doctor.image} className="w-[64px] h-[64px]" alt="" />
+                    <img src={doctor.ellImage} className="absolute bottom-1 left-[85px]" alt="" />
                   </div>
-                  <span className="text-[#212121] text-[14px] py-2 font-medium block text-center">
+                  <span className="text-[#212121] text-[14px] py-1 font-medium block text-center">
                     {doctor.name}
                   </span>
                   <span className="text-[#757575] text-[12px] font-normal block text-center">
@@ -137,7 +137,7 @@ export default function OnlineDoctor() {
                     <span className="text-[#FFA724]">{doctor.rating}</span>
                     <img src="/star1.svg" alt="star" />
                   </span>
-                  <button className="w-full py-2 px-6 rounded-[4px] border border-[#247CFF] bg-white text-[#247cff] flex items-center justify-center gap-2">
+                  <button className="w-full mt-3 py-2 px-6 rounded-[4px] border border-[#247CFF] bg-white text-[#247cff] flex items-center justify-center gap-2">
                     <span>
                       <img src="/arr.svg" alt="" />
                     </span>

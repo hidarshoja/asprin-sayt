@@ -48,8 +48,8 @@ export default function FindDoctor() {
   return (
     <div className="w-full  py-10 bg-white rtl">
       <div>
-        <div className="flex  items-center justify-between mt-20 py-8">
-          <div className="text-[#35383f] text-[16px] lg:text-[30px] font-bold">
+        <div className="flex  items-center justify-between mt-0 lg:mt-20 py-3 lg:py-8">
+          <div className="text-[#35383f] text-[14px] lg:text-[30px] font-bold">
             پیدا کردن دکتر با نوع بیماری
           </div>
           <div className="flex items-center gap-3 text-[#247CFF] text-[10px] lg:text-[16px] font-medium">

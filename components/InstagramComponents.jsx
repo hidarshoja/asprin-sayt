@@ -39,7 +39,7 @@ export default function InstagramComponents() {
           </div>
         </div>
       </div>
-      <div className="block lg:hidden p-[18px]">
+      <div className="block lg:hidden p-0">
       <div className="lg:hidden rounded-t-3xl  mt-24 mx-auto bg-[#2171e8] h-[573px] relative flex items-center justify-center flex-col gap-3 bg-[url('/Frame1.svg')] bg-no-repeat bg-cover">
         <div className="relative w-full flex justify-center h-[50%]">
           <img

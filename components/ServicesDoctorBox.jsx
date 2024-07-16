@@ -29,7 +29,7 @@ export default function ServicesDoctorBox() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },

@@ -33,16 +33,16 @@ export default function FAQComponent() {
   };
 
   return (
-    <div className="w-full h-[850px] lg:h-[650px] bg-gray-100 py-12 rtl">
-      <div className="flex justify-between items-center w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0 py-6">
-      <h2 className="text-[14px] lg:text-[30px] font-bold mb-6 text-right">
+    <div className="w-full min-h-[820px] lg:h-[650px] bg-gray-100 py-8 lg:py-12 rtl">
+      <div className="flex justify-between items-center w-[98%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
+      <h2 className="text-[14px] lg:text-[30px] font-bold mb-5 lg:mb-6 text-right">
             <p className="text-[#2171e8] inline-block px-2">سوالات</p>
             متداول
           </h2>
           <p></p>
       </div>
       <div className="px-2  lg:pr-10 flex flex-col lg:flex-row items-start justify-center  gap-6">
-        <div className="flex-1 w-3/5 lg:mr-[8%]">
+        <div className="flex-1 w-full lg:w-3/5 lg:mr-[8%]">
          
           {faqs.map((faq, index) => (
             <div key={index} className="mb-4">
@@ -63,15 +63,15 @@ export default function FAQComponent() {
             </div>
           ))}
         </div>
-        <div className="w-full lg:w-2/5 h-[200px] lg:h-[319px] rounded-r-2xl lg:rounded-r-2xl bg-[#2171e8] flex items-center justify-center px-6">
-          <div className="bg-white mt-32 h-80 ml-8 lg:h-96 p-6 rounded-2xl shadow-md flex flex-col items-center  lg:w-[359px]">
+        <div className="w-full lg:w-2/5 h-[200px] lg:h-[319px] rounded-2xl lg:rounded-l-none  lg:rounded-r-2xl bg-[#2171e8] flex items-center justify-center px-6">
+          <div className="bg-white mt-24 lg:mt-32 h-[248px] md:h-80 lg:ml-8 lg:h-96 p-4 lg:p-6 rounded-2xl shadow-md flex flex-col items-center  lg:w-[359px]">
             <img src="/customer.svg" alt="support" className="w-[72px] h-[72px] lg:w-[117px] lg:h-[117px]" />
-            <h3 className="text-[16px] lg:text-[20px] font-medium mt-6 text-[#35383f]">نیاز به راهنمایی دارید؟</h3>
+            <h3 className="text-[16px] lg:text-[20px] font-medium mt-3 lg:mt-6 text-[#35383f]">نیاز به راهنمایی دارید؟</h3>
             <p className="text-[12px] lg:text-[16px] text-[#757575] text-center mt-2">
               روی دکمه زیر کلیک کنید و مستقیماً تماس بگیرید. شماره تماس:
               09120012345
             </p>
-            <button className="bg-[#247cff] h-[56px] text-white mt-10 py-2 px-4 rounded-xl w-full text-[10px] lg:text-[16px] font-medium">
+            <button className="bg-[#247cff] h-[56px] text-white mt-4 lg:mt-10  py-2 px-4 rounded-xl w-full text-[10px] lg:text-[16px] font-medium">
               تماس بگیرید
             </button>
           </div>

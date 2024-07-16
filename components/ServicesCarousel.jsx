@@ -38,7 +38,7 @@ const MyCarouselSlick = () => {
   };
 
   return (
-    <div className="carousel-container mt-4 overflow-hidden">
+    <div className="carousel-container mt-0 lg:mt-4 overflow-hidden">
       <Slider {...settings}>
         {carouselItems.map((item, index) => (
           <div key={index} className="carousel-item flex flex-col items-center justify-center">

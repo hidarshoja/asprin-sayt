@@ -63,7 +63,7 @@ const MainHome = () => {
         <ServicesDoctor />
         <ServicesDoctorBox />
         <div className="flex flex-col">
-          <div className="flex  items-center justify-between mt-20 py-8">
+          <div className="flex  items-center justify-between mt-8 lg:mt-20 py-4 lg:py-8">
             <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">
               پزشکان آنلاین دکتر آسپرین
             </div>
@@ -84,7 +84,8 @@ const MainHome = () => {
       </div>
       <Questions />
 
-      <div className="flex flex-col  overflow-hidden  pl-3 lg:pl-6">
+      
+      <div className="w-[95%] lg:w-full mx-auto flex flex-col relative overflow-hidden lg:pl-6">
         <Experience />
       </div>
       <div className="flex flex-col  w-[98%] lg:w-[89%] xl:w-[81%] mx-auto px-3 lg:px-0">
