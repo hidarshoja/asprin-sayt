@@ -9,7 +9,7 @@ export default function ServicesDoctorBox() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
@@ -29,7 +29,7 @@ export default function ServicesDoctorBox() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
           slidesToScroll: 1,
         },
       },
@@ -72,16 +72,16 @@ export default function ServicesDoctorBox() {
                 key={index}
                 className="carousel-item-services p-4 flex flex-col items-center gap-4 justify-center"
               >
-                <div className="w-[237px] h-[189px] rounded-full flex items-center justify-center bg-[#f5f5f5]">
-                  <img src={item.imgSrc} alt={item.altText} />
+                <div className="lg:w-[237px] lg:h-[189px] rounded-full flex items-center justify-center bg-[#f5f5f5]">
+                  <img src={item.imgSrc} className="w-[145px] h-[116px] lg:w-[237px] lg:h-[189px]" alt={item.altText} />
                 </div>
-                <p className="w-full text-center text-[18px] font-IRANSans text-[#212121]">
+                <p className="w-full text-center text-[14px] lg:text-[18px] font-IRANSans text-[#212121]">
                   {item.title}
                  
                   
                 </p>
                 <span
-                className="w-full text-center text-[14px] font-IRANSans text-[#757575]">
+                className="w-full text-center text-[12px] lg:text-[14px] font-IRANSans text-[#757575]">
                 {item.subtitle}
                 </span>
               </div>

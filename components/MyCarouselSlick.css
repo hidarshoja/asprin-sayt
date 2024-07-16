@@ -1,20 +1,64 @@
-.carousel-container {
-    height: 240px !important;
+
+@media screen and (max-width: 768px) {
+    .carousel-item{
+        display: flex !important;
+    width: 92px !important;
+    height: 130px !important;
+    padding: 10px 0px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    border-radius: 12px !important;
+    border: 1px solid #eee !important;
+    background: #ffffff !important;
+    
+    }  
+    .carousel-container {
+        height: 180px !important;
+    }
+
+    .carousel-item-services {
+        width: 169px !important;
+        padding: 12px !important;
+        border-radius: 24px !important;
+        background-color: #f5f5f5 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        
+    }
+}
+@media screen and (min-width: 768.1px) {
+    .carousel-item{
+        display: flex !important;
+    width: 147px !important;
+    height: 178px !important;
+    padding: 12px 10px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+    border-radius: 12px !important;
+    border: 1px solid #eee !important;
+    background: #ffffff !important;
+    
+    }   
+    .carousel-container {
+        height: 240px !important;
+    } 
+
+    .carousel-item-services {
+        width: 269px !important;
+        padding: 16px !important;
+        border-radius: 24px !important;
+        background-color: #f5f5f5 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        
+    }
 }
 
-.carousel-item{
-    display: flex !important;
-width: 147px !important;
-height: 178px !important;
-padding: 12px 10px !important;
-flex-direction: column !important;
-align-items: center !important;
-gap: 12px !important;
-border-radius: 12px !important;
-border: 1px solid #eee !important;
-background: #ffffff !important;
-
-}
 .slick-prev , .slick-next {
     top: 20% !important;
 }
@@ -41,15 +85,6 @@ background: #ffffff !important;
   height: 328px !important;
 }
 
-.carousel-item-services {
-    width: 269px !important;
-    padding: 16px !important;
-    border-radius: 24px !important;
-    background-color: #f5f5f5 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    
-}
+
 
 

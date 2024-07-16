@@ -1,14 +1,21 @@
 import React from "react";
+import { FaChevronDown } from "react-icons/fa";
 
 export default function SlideHeader() {
   return (
     <div className="bg-[url('/back-m.jpg')] bg-cover  bg-no-repeat bg-center w-full min-h-[406px] lg:min-h-[742px] flex items-start  flex-col relative">
       <div className="text-[#35383f] text-[16px] lg:text-[40px] font-IRANSans font-bold lg:font-black w-full flex flex-col items-center justify-center mt-[52px] lg:mt-[115px]">
         <div className="flex relative">
-            <img src="/doctor1.svg" 
-            className="absolute h-5 w-5 lg:w-[71px] right-[-10px] bottom-[-55px] lg:h-[61px] lg:right-[-230px] lg:bottom-[-90px] " alt="" />
-            <img src="/border1.svg" 
-            className="absolute w-[78px] h-[31px] lg:h-[104px] lg:w-[256px] bottom-[-55px] right-[-10px] lg:right-[-195px] lg:bottom-[-100px]  " alt="" />
+          <img
+            src="/doctor1.svg"
+            className="absolute h-5 w-5 lg:w-[71px] right-[-10px] bottom-[-55px] lg:h-[61px] lg:right-[-230px] lg:bottom-[-90px] "
+            alt=""
+          />
+          <img
+            src="/border1.svg"
+            className="absolute w-[78px] h-[31px] lg:h-[104px] lg:w-[256px] bottom-[-55px] right-[-10px] lg:right-[-195px] lg:bottom-[-100px]  "
+            alt=""
+          />
           <span className="px-1">با</span>
           <span className="text-[#2171e8] font-IRANSans font-bold lg:font-black text-[16px] lg:text-[40px] px-1">
             دکتر آسپرین{" "}
@@ -45,7 +52,7 @@ export default function SlideHeader() {
                 <div className="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
                   <img
                     src="/search.svg"
-                    className="w-4 h-4 lg:w-6 lg:h-6 mt-1 cursor-pointer"
+                    className="w-4 h-4 lg:w-6 lg:h-6 mr-[6px] mt-[6px] cursor-pointer"
                     alt=""
                   />
                 </div>
@@ -53,9 +60,13 @@ export default function SlideHeader() {
             </div>
           </div>
           <div className="w-full lg:w-2/5">
-            <div className="relative mt-2">
+            <div className="relative mt-2 w-full">
+              <FaChevronDown
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400"
+                size={16}
+              />
               <select
-                className="block text-[12px] lg:text-[16px] w-full rounded-md border border-[#e0e0e0] py-[9px] px-2 bg-white text-[#9E9E9E]  shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400"
+                className="block appearance-none text-[12px] lg:text-[16px] w-full rounded-md border-2 border-[#e0e0e0] py-[9px] pl-8 pr-2 bg-white text-[#9E9E9E] shadow-sm ring- ring-inset ring-gray-300 placeholder:text-gray-400"
                 defaultValue=""
               >
                 <option value="" disabled>
@@ -66,6 +77,19 @@ export default function SlideHeader() {
                 <option value="specialty3">شهر سوم</option>
               </select>
             </div>
+            {/* <div className="relative mt-2">
+              <select
+                className="block text-[12px] lg:text-[16px] w-full rounded-md border border-[#e0e0e0] py-[9px]  px-2 bg-white text-[#9E9E9E]  shadow-sm ring- ring-inset ring-gray-300 placeholder:text-gray-400"
+                defaultValue=""
+              >
+                <option value="" disabled>
+                  انتخاب شهر
+                </option>
+                <option value="specialty1">شهر اول</option>
+                <option value="specialty2">شهر دوم</option>
+                <option value="specialty3">شهر سوم</option>
+              </select>
+            </div> */}
           </div>
 
           <div className="w-full lg:w-1/5">

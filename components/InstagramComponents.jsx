@@ -30,24 +30,24 @@ export default function InstagramComponents() {
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex justify-end items-end relative">
-          <div className="absolute lg:bottom-[-16px] lg:rounded-t-3xl shadow-lg ">
+          {/* <div className="absolute lg:bottom-[-16px] lg:rounded-t-3xl shadow-lg ">
             <img
               src="/mobile1.png"
               alt="Instagram Screenshot"
               className="hidden lg:block rounded-t-2xl p-0 ml-28 w-[300px] h-[474px] "
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="block lg:hidden p-0">
       <div className="lg:hidden rounded-t-3xl  mt-24 mx-auto bg-[#2171e8] h-[573px] relative flex items-center justify-center flex-col gap-3 bg-[url('/Frame1.svg')] bg-no-repeat bg-cover">
-        <div className="relative w-full flex justify-center h-[50%]">
+        {/* <div className="relative w-full flex justify-center h-[50%]">
           <img
             src="/mobile-i.svg"
             className="absolute z-50 top-[-80px] w-[147px] h-[302px]"
             alt=""
           />
-        </div>
+        </div> */}
         <div className="px-4 py-1 h-[50%]">
           <p className="text-white text-[14px] font-bold text-center">
             صفحه رسمی ما را در اینستاگرام دنبال کنید

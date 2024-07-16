@@ -26,6 +26,11 @@ export default function Experience() {
   const [activeCategory, setActiveCategory] = useState("women");
   const [activeSection, setActiveSection] = useState("recommendations");
   const [activeCarouselIndex, setActiveCarouselIndex] = useState(null);
+  
+
+  const handleButtonClick = (button) => {
+    setActiveSection(button);
+  };
   const settings = {
     dots: true,
     infinite: true,
@@ -288,7 +293,7 @@ export default function Experience() {
           </div>
         </div>
         <div className="w-full lg:w-[59%] relative mt-[-25px] border rounded-2xl bg-white border-[#e0e0e0] min-h-[493px] lg:min-h-[443px]">
-          <div className="flex items-center px-4 py-6 flex-wrap gap-2 justify-between">
+          <div className="hidden lg:flex items-center px-4 py-6 flex-wrap gap-2 justify-between">
             {sections.map((section) => (
               <button
                 key={section.key}
@@ -303,6 +308,42 @@ export default function Experience() {
               </button>
             ))}
           </div>
+          <div className="flex flex-col gap-2 lg:hidden p-3">
+      <div className="w-full flex gap-2">
+        <button
+          onClick={() => handleButtonClick('diagnosis')}
+          className={`w-1/3 text-[10px] px-2 py-2 font-medium rounded ${activeSection === 'diagnosis' ? 'bg-blue-500 text-white' : 'bg-[#f5f5f5] text-[#757575]'}`}
+        >
+          تشخیص
+        </button>
+        <button
+          onClick={() => handleButtonClick('reactions')}
+          className={`w-1/3 text-[10px] px-2 py-2 font-medium rounded ${activeSection === 'reactions' ? 'bg-blue-500 text-white' : 'bg-[#f5f5f5] text-[#757575]'}`}
+        >
+          واکنش و احساسات
+        </button>
+        <button
+          onClick={() => handleButtonClick('treatment')}
+          className={`w-1/3 text-[10px] px-2 py-2 font-medium rounded ${activeSection === 'treatment' ? 'bg-blue-500 text-white' : 'bg-[#f5f5f5] text-[#757575]'}`}
+        >
+          درمان
+        </button>
+      </div>
+      <div className="w-full flex gap-2">
+        <button
+          onClick={() => handleButtonClick('recommendations')}
+          className={`w-1/2 text-[10px] px-2 py-2 font-medium rounded ${activeSection === 'recommendations' ? 'bg-blue-500 text-white' : 'bg-[#f5f5f5] text-[#757575]'}`}
+        >
+          توصیه و تجربیات
+        </button>
+        <button
+          onClick={() => handleButtonClick('conclusion')}
+          className={`w-1/2 text-[10px] px-2 py-2 font-medium rounded ${activeSection === 'conclusion' ? 'bg-blue-500 text-white' : 'bg-[#f5f5f5] text-[#757575]'}`}
+        >
+          نتیجه گیری
+        </button>
+      </div>
+    </div>
           <div className="w-full h-[1px] bg-[#9e9e9e]"></div>
           <div className="text-[12px] lg:leading-7  lg:text-[18px] p-4 rounded font-normal text-[#757575]">
             {renderContent()}

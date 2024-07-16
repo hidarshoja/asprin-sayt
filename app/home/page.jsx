@@ -63,7 +63,7 @@ const MainHome = () => {
         <ServicesDoctor />
         <ServicesDoctorBox />
         <div className="flex flex-col">
-          <div className="flex  items-center justify-between mt-8 lg:mt-20 py-4 lg:py-8">
+          <div className="flex  items-center justify-between lg:mt-20 py-4 lg:py-8">
             <div className="text-[#35383f] text-[16px] lg:text-[24px] font-bold">
               پزشکان آنلاین دکتر آسپرین
             </div>

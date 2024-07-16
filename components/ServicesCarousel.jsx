@@ -10,7 +10,7 @@ const MyCarouselSlick = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 7.5,
     slidesToScroll: 1,
     autoplay: true,
@@ -30,7 +30,7 @@ const MyCarouselSlick = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 2.5,
           slidesToScroll: 1
         }
       }
@@ -42,10 +42,10 @@ const MyCarouselSlick = () => {
       <Slider {...settings}>
         {carouselItems.map((item, index) => (
           <div key={index} className="carousel-item flex flex-col items-center justify-center">
-            <div className='w-[81px] h-[81px] rounded-full flex items-center justify-center bg-[#f5f5f5]'>
-              <img src={item.imgSrc} alt={item.altText} />
+            <div className='w-[56px] lg:w-[81px] h-[56px] lg:h-[81px] rounded-full flex items-center justify-center bg-[#f5f5f5]'>
+              <img src={item.imgSrc} className="w-[32px] h-[32px] lg:w-[47px] lg:h-[47px]" alt={item.altText} />
             </div>
-            <p className='w-full text-center text-[16px] font-IRANSans text-[#424242]'>
+            <p className='w-full text-center text-[12px] lg:text-[16px] font-IRANSans text-[#424242]'>
               {item.title}
               <br />
               {item.subtitle}
