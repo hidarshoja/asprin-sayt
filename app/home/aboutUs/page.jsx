@@ -2,7 +2,7 @@ import React from "react";
 
 export default function page() {
   return (
-    <div>
+    <div className=" w-[97%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
       <div className="mt-16 w-full flex-col  max-h-[950px] lg:max-h-[1050px] xl:max-h-[1150px]">
         <img src="/aboutImg.svg" className="w-full hidden lg:block" alt="" />
         <img src="/aboutImg2.svg" className="w-full block lg:hidden" alt="" />

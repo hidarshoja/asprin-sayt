@@ -2,8 +2,8 @@ import React from "react";
 
 export default function page() {
   return (
-    <div>
-      <div className="mt-16 w-full flex-col  max-h-[950px] lg:max-h-[1050px] xl:max-h-[1150px]">
+    <div className=" w-[97%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
+      <div className="mt-16 w-full flex-col  max-h-[950px] lg:max-h-[1050px] xl:max-h-[1150px] ">
         <div className="half-circle relative ">
           <img src="/slideHeader.svg" className="w-full" alt="" />
           <div className="rounded-full bottom-[-60px] flex item-center justify-between  absolute w-[55%] h-[64px] bg-[#FBFAF6]  left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">

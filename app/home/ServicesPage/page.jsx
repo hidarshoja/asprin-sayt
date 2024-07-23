@@ -9,7 +9,7 @@ import ArticlesServices from "@/components/ArticlesServices";
 export default function page() {
   return (
     <div>
-      <div className="mt-16 w-full flex-col  min-h-[950px] lg:min-h-[1050px] xl:min-h-[1150px]">
+      <div className="mt-16  flex-col  min-h-[950px] lg:min-h-[1050px] xl:min-h-[1150px]  w-[97%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
         <p className="font-bold text-[14px] text-[#979797] px-8">
           خانه | پزشکان | متخصص زنان و زایمان | دکتر مریم شاهی
         </p>

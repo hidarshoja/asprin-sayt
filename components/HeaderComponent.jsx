@@ -20,7 +20,7 @@ export default function HeaderComponent() {
       {({ open }) => (
         <>
           <div>
-            <div className="flex bg-[#E9F2FF] h-16 pt-3 justify-between w-full items-center  lg:px-24">
+            <div className="flex bg-[#E9F2FF] h-16 py-5 justify-between w-full items-center  lg:px-24">
               <div className="flex  lg:px-0">
                 <div className="flex gap-2 flex-shrink-0 items-center">
                   <img

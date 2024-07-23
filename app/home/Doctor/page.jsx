@@ -73,7 +73,7 @@ export default function Page() {
   };
 
   return (
-    <div className="mt-16 w-full flex-col  relative">
+    <div className="mt-16  flex-col  relative  w-[97%] lg:w-[89%] xl:w-[80%] mx-auto px-3 lg:px-0">
       {/* بخش فیلترینگ */}
       {isFilterOpen && (
         <div
